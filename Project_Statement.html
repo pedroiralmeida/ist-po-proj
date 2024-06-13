@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-js js no-touch svg inlinesvg svgclippaths no-ie8compat"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>Programação com Objectos/Projecto de Programação com Objectos/Enunciado do Projecto de 2022-2023 - Wiki**3</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Programação_com_Objectos/Projecto_de_Programação_com_Objectos/Enunciado_do_Projecto_de_2022-2023","wgTitle":"Programação com Objectos/Projecto de Programação com Objectos/Enunciado do Projecto de 2022-2023","wgCurRevisionId":15480,"wgRevisionId":15480,"wgArticleId":2277,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Ensino","PO","Projecto de PO"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Programação_com_Objectos/Projecto_de_Programação_com_Objectos/Enunciado_do_Projecto_de_2022-2023","wgRelevantArticleId":2277,"wgRequestId":"1921604eb3bf3928a428004a","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgSmjSize":110,"wgSmjUseChem":true,"wgSmjInlineMath":[["[math]","[/math]"]]});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup"]);});</script>
+<link rel="stylesheet" href="Programa%C3%A7%C3%A3o%20com%20Objectos_Projecto%20de%20Programa%C3%A7%C3%A3o%20com%20Objectos_Enunciado%20do%20Projecto%20de%202022-2023%20-%20Wiki%203_ficheiros/load.css">
+<style>
+.mw-collapsible-toggle{float:right;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}  .mw-content-ltr .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr .mw-collapsible-toggle{float:right} .mw-content-rtl .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl .mw-collapsible-toggle{float:left}.mw-customtoggle,.mw-collapsible-toggle{cursor:pointer} caption .mw-collapsible-toggle,.mw-content-ltr caption .mw-collapsible-toggle,.mw-content-rtl caption .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr caption .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl caption .mw-collapsible-toggle{float:none} li .mw-collapsible-toggle,.mw-content-ltr li .mw-collapsible-toggle,.mw-content-rtl li .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr li .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl li .mw-collapsible-toggle{float:none} .mw-collapsible-toggle-li{list-style:none}
+.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:none;z-index:1099;padding:0;margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0;margin-top:-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-results{background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0}.suggestions-result{color:black;margin:0;line-height:1.5em;padding:0.01em 0.25em;text-align:left; overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}.suggestions-result-current{background-color:#4C59A6;color:white}.suggestions-special .special-label{color:gray;text-align:left}.suggestions-special .special-query{color:black;font-style:italic;text-align:left}.suggestions-special .special-hover{background-color:silver}.suggestions-result-current .special-label,.suggestions-result-current .special-query{color:white}.highlight{font-weight:bold}
+@media screen {
+	.tochidden,.toctoggle{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.toctoggle{font-size:94%}}
+@media print {
+	#toc.tochidden,.toctoggle{display:none}}
+.top-bar,.top-bar-section ul,.top-bar-section ul li.active > a,.top-bar-section li a:not(.button),.top-bar-section .has-form{background:#282727;color:#dddddd}.top-bar-section > ul > .divider,.top-bar-section > ul > [role="separator"]{border-color:#282727} .top-bar-section ul li.hover > a,.top-bar-section ul li ul.dropdown li.hover > a{background:#282727} .top-bar-section ul li ul.dropdown li > a{background:#282727}.top-bar .button{background:#414141;border-top-color:#555555;border-right-color:#414141;border-bottom-color:#555555;border-left-color:#414141}.row{max-width:75em}body{font-family:"Lato",Helvetica,sans-serif;font-size:13px;line-height:1.25;color:#697060; background-color:#ffffff;margin:0px}body #mw-content-text pre{margin-bottom:1em}body span.mw-headline{font-weight:normal}body span.mw-collapsible-toggle.mw-collapsible-toggle-collapsed{}body span.mw-collapsible-toggle.mw-collapsible-toggle-expanded{}body h1{font-size:2em}body h2{font-size:1.75em}.ns-subject h3,.ns-special h3,.page-Main_Page h3,body h3{font-size:1.4em}body h4{font-size:1em}body h5{font-size:1em}body h6{font-size:1em}body h1,body h2,body h3,body h4,body h5,body h6{font-family:"Candara","Lato",sans-serif;font-weight:normal;color:#697060;margin-top:0.8em}body h2.title{font-size:2em}body .title{font-family:"Candara","Lato",sans-serif;font-weight:normal;color:#697060;margin-top:0em}body div#toctitle h2{font-size:initial;margin-top:0.8em;display:inline}body #catlinks{margin-top:1.5em;margin-bottom:0em}body #catlinks a.label{}body pre{font-family:"Droid Sans Mono",monospace;font-size:0.85em;line-height:1.25em;background-color:#fcfcfc;padding:8px;border-style:solid;border-width:1px;border-color:#dddddd}@media all{body h3#tagline{display:none;font-weight:normal}}@media print{body h3#tagline{display:block;font-weight:normal}a[href]::after{display:none}div.printfooter{display:none}}
+.postedit-container{margin:0 auto;position:fixed;top:0;height:0;left:50%;z-index:1000;font-size:13px}.postedit-container:hover{cursor:pointer}.postedit{position:relative;top:0.6em;left:-50%;padding:.6em 3.6em .6em 1.1em;line-height:1.5625em;color:#626465;background-color:#f4f4f4;border:1px solid #dcd9d9;text-shadow:0 0.0625em 0 rgba(255,255,255,0.5);border-radius:5px;box-shadow:0 2px 5px 0 #ccc;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out}.skin-monobook .postedit{top:6em !important}.postedit-faded{opacity:0}.postedit-icon{padding-left:41px;  line-height:25px;background-repeat:no-repeat;background-position:8px 50%}.postedit-icon-checkmark{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB9ElEQVR4AZWRA3AYURQArxrVHtW2bdu2bdu2zdi2bdu2bWxs7zeehZaw4f70kbs+zI3e/nWK+RWx3aOFlrL56Sy5SxrruG69hlv6OyK+mz+8KDSXdXembj0ispT7tjs4ZTIbpYBvxGSGKzZTeFrb7W/meN002swFs0U8ttpHTkF2BvCqWQrW35929bTsKm5Zb+SEwWwcY8wAngB9m7Z+d+rIPZ/npdy12M5p47n8dXsCYAf0qPy06eGMdktuDu9Qf+JmKl3SWM91qzVcN9tAbEYkwMaq0tyb1m/To5kP170el/BK8/qa6sJr70ydf+T/Uu5ab+Oo/lS0AkUBpIFWlZ9WPhxpse/PHO7YbOOczjL0vZV2lNxPPtG73dYXM+xvm2znrOl83tidoqCwMBgYXsPFB0on5S6pr+eK5TKuW67lgvaKvF8mL1dtfTL32FHxRdyx3cQpg7m4x9sCXKkTIzA4LDH44zWdzaUf71hv5rTG4uyzcusybxSX7aThbMQ8XgCYAp3rzTTQOiIh9PNlzY3FSuZxrzjme1Y7uGS6kjsWO4jPjM4FVjRZsvD4kO9XtTZzQn82NyzWc0B7AmZh6gA/hOYSGhfw9YbOVnarj+S7800AL2BIsxUAbWNToj7bhBuQmZcOsFdoKUC74rGheCwXmqAIQTc9jQcrADIAAAAASUVORK5CYII=);background-image:url(/~david.matos/w/pt/resources/src/mediawiki.action/images/green-checkmark.png?d94f1)!ie;background-position:left}.postedit-close{position:absolute;padding:0 .8em;right:0;top:0;font-size:1.25em;font-weight:bold;line-height:2.3em;color:black;text-shadow:0 0.0625em 0 white;text-decoration:none;opacity:0.2;filter:alpha(opacity=20)}.postedit-close:hover{color:black;text-decoration:none;opacity:0.4;filter:alpha(opacity=40)}</style><style>
+.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:hover,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSuggest-link:focus{color:black;text-decoration:none}.suggestions-result-current a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-link:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.suggestions-result-current a.mw-searchSuggest-link:focus{color:white}.suggestions a.mw-searchSuggest-link .special-query{ overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}</style><meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="Programa%C3%A7%C3%A3o%20com%20Objectos_Projecto%20de%20Programa%C3%A7%C3%A3o%20com%20Objectos_Enunciado%20do%20Projecto%20de%202022-2023%20-%20Wiki%203_ficheiros/load_002.css">
+<script async="" src="Programa%C3%A7%C3%A3o%20com%20Objectos_Projecto%20de%20Programa%C3%A7%C3%A3o%20com%20Objectos_Enunciado%20do%20Projecto%20de%202022-2023%20-%20Wiki%203_ficheiros/load_002.es"></script>
+<meta name="generator" content="MediaWiki 1.27.5">
+<meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
+<meta name="theme-color" content="black">
+<link rel="shortcut icon" href="https://web.tecnico.ulisboa.pt/~david.matos/favicon.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/opensearch_desc.php" title="Wiki**3 (en)">
+<link rel="EditURI" type="application/rsd+xml" href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/api.php?action=rsd">
+<link rel="alternate" type="application/atom+xml" title="Wiki**3 Atom feed" href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php?title=Special:RecentChanges&amp;feed=atom">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script src="Programa%C3%A7%C3%A3o%20com%20Objectos_Projecto%20de%20Programa%C3%A7%C3%A3o%20com%20Objectos_Enunciado%20do%20Projecto%20de%202022-2023%20-%20Wiki%203_ficheiros/load.es"></script><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Programação_com_Objectos_Projecto_de_Programação_com_Objectos_Enunciado_do_Projecto_de_2022-2023 rootpage-Programação_com_Objectos skin-foreground action-view"><div id="MathJax_Message" style="display: none;"></div>
+<div id="navwrapper"><!-- START FOREGROUNDTEMPLATE -->
+		<nav class="top-bar">
+			<ul class="title-area">
+				<li class="name">
+					<h1 class="title-name">
+					<a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/P%C3%A1gina_Principal">
+										
+					<div class="title-name" style="display: inline-block;">Wiki**3</div>
+					</a>
+					</h1>
+				</li>
+				<li class="toggle-topbar menu-icon">
+					<a href="#"><span>Menu</span></a>
+				</li>
+			</ul>
+
+		
+		<section class="top-bar-section">
+
+			<ul id="top-bar-left" class="left">
+				<li class="divider"></li>
+									<li class="has-dropdown active" id="p-apresenta.C3.A7.C3.A3o">
+					<a href="#">apresentação</a>
+													<ul class="dropdown"><li class="title back js-generated"><h5><a href="#">« Back</a></h5></li>
+								<li id="n-P.C3.A1gina-Principal"><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/P%C3%A1gina_Principal">Página Principal</a></li><li id="n-Apresenta.C3.A7.C3.A3o"><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Apresenta%C3%A7%C3%A3o">Apresentação</a></li><li id="n-Contactos"><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Contactos">Contactos</a></li>							</ul>
+																		</li><li class="has-dropdown active" id="p-aulas">
+					<a href="#">aulas</a>
+													<ul class="dropdown"><li class="title back js-generated"><h5><a href="#">« Back</a></h5></li>
+								<li id="n-Compiladores"><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Compiladores">Compiladores</a></li><li id="n-Programa.C3.A7.C3.A3o-com-Objectos"><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Programa%C3%A7%C3%A3o_com_Objectos">Programação com Objectos</a></li><li id="n-Todas-as-Disciplinas..."><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Actividades_Lectivas">Todas as Disciplinas...</a></li>							</ul>
+																		</li><li class="has-dropdown active" id="p-investiga.C3.A7.C3.A3o">
+					<a href="#">investigação</a>
+													<ul class="dropdown"><li class="title back js-generated"><h5><a href="#">« Back</a></h5></li>
+								<li id="n-Orienta.C3.A7.C3.B5es"><a href="https://www.hlt.inesc-id.pt/~david/w/pt/Orienta%C3%A7%C3%A3o_Cient%C3%ADfica">Orientações</a></li><li id="n-Publica.C3.A7.C3.B5es"><a href="https://www.hlt.inesc-id.pt/~david/w/pt/Publica%C3%A7%C3%B5es">Publicações</a></li>							</ul>
+																		</li><li class="has-dropdown active" id="p-misc">
+					<a href="#">misc</a>
+													<ul class="dropdown"><li class="title back js-generated"><h5><a href="#">« Back</a></h5></li>
+								<li id="n-Downloads"><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Downloads">Downloads</a></li><li id="n-portal"><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Wiki**3:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>							</ul>
+																		</li><li class="has-dropdown active" id="p-lang">
+					<a href="#">In other languages</a>
+													<ul class="dropdown"><li class="title back js-generated"><h5><a href="#">« Back</a></h5></li>
+								<li class="interlanguage-link interwiki-en"><a href="http://www.hlt.inesc-id.pt/~david/wiki/en/index.php/Object-Oriented_Programming" title="Object-Oriented Programming – English" lang="en" hreflang="en">English</a></li>							</ul>
+																							</li></ul>
+
+			<ul id="top-bar-right" class="right">
+				<li class="has-form">
+					<form action="/~david.matos/w/pt/index.php" id="searchform" class="mw-search">
+						<div class="row">
+						<div class="small-12 columns">
+							<input type="search" name="search" placeholder="Search" title="Search Wiki**3 [Alt+Shift+f]" accesskey="f" id="searchInput" autocomplete="off">							<button type="submit" class="button search">Search</button>
+						</div>
+						</div>
+					</form>
+				</li>
+				<li class="divider show-for-small"></li>
+				<li class="has-form">
+
+				</li><li class="has-dropdown active"><a href="#"><i class="fa fa-cogs"></i></a>
+					<ul id="toolbox-dropdown" class="dropdown"><li class="title back js-generated"><h5><a href="#">« Back</a></h5></li>
+						<li id="t-whatlinkshere"><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Special:WhatLinksHere/Programa%C3%A7%C3%A3o_com_Objectos/Projecto_de_Programa%C3%A7%C3%A3o_com_Objectos/Enunciado_do_Projecto_de_2022-2023" title="A list of all wiki pages that link here [Alt+Shift+j]" accesskey="j"><div class="drop-icon"><i class="fa fa-arrows fa-fw"></i></div>What links here</a></li><li id="t-recentchangeslinked"><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Special:RecentChangesLinked/Programa%C3%A7%C3%A3o_com_Objectos/Projecto_de_Programa%C3%A7%C3%A3o_com_Objectos/Enunciado_do_Projecto_de_2022-2023" title="Recent changes in pages linked from this page [Alt+Shift+k]" accesskey="k"><div class="drop-icon"><i class="fa fa-bars fa-fw"></i></div>Related changes</a></li><li id="t-specialpages"><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Special:SpecialPages" title="A list of all special pages [Alt+Shift+q]" accesskey="q"><div class="drop-icon"><i class="fa fa-magic fa-fw"></i></div>Special pages</a></li><li id="t-print"><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php?title=Programa%C3%A7%C3%A3o_com_Objectos/Projecto_de_Programa%C3%A7%C3%A3o_com_Objectos/Enunciado_do_Projecto_de_2022-2023&amp;oldid=15480&amp;printable=yes" rel="alternate" title="Printable version of this page [Alt+Shift+p]" accesskey="p"><div class="drop-icon"><i class="fa fa-print fa-fw"></i></div>Printable version</a></li><li id="t-permalink"><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php?title=Programa%C3%A7%C3%A3o_com_Objectos/Projecto_de_Programa%C3%A7%C3%A3o_com_Objectos/Enunciado_do_Projecto_de_2022-2023&amp;oldid=15480" title="Permanent link to this revision of the page"><div class="drop-icon"><i class="fa fa-dot-circle-o fa-fw"></i></div>Permanent link</a></li><li id="t-info"><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php?title=Programa%C3%A7%C3%A3o_com_Objectos/Projecto_de_Programa%C3%A7%C3%A3o_com_Objectos/Enunciado_do_Projecto_de_2022-2023&amp;action=info" title="More information about this page"><div class="drop-icon"><i class="fa fa-info fa-fw"></i></div>Page information</a></li>						<li id="n-recentchanges"><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Special:RecentChanges" title="Special:RecentChanges"><div class="drop-icon"><i class="fa fa-tasks fa-fw"></i></div>Recent changes</a></li>						<li id="n-help"><a href="https://web.tecnico.ulisboa.pt/wiki/Help:Contents"><div class="drop-icon"><i class="fa fa-question fa-fw"></i></div>Help</a></li>					</ul>
+				</li>
+
+											<li>
+																	<a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php?title=Special:UserLogin&amp;returnto=Programa%C3%A7%C3%A3o+com+Objectos%2FProjecto+de+Programa%C3%A7%C3%A3o+com+Objectos%2FEnunciado+do+Projecto+de+2022-2023&amp;returntoquery=oldid%3D15480">Log in</a>
+																</li>
+
+				
+			</ul>
+		</section></nav>
+		</div>		
+		<div id="page-content">
+		<div class="row">
+				<div class="large-12 columns">
+				<!--[if lt IE 9]>
+				<div id="siteNotice" class="sitenotice panel radius">Wiki**3 may not look as expected in this version of Internet Explorer. We recommend you upgrade to a newer version of Internet Explorer or switch to a browser like Firefox or Chrome.</div>
+				<![endif]-->
+
+												</div>
+		</div>
+
+		<div id="mw-js-message" style="display:none;"></div>
+
+		<div class="row">
+				<div id="p-cactions" class="large-12 columns">
+										<h2 class="title">Programação com Objectos/Projecto de Programação com Objectos/Enunciado do Projecto de 2022-2023</h2>
+					<h3 id="tagline">From Wiki**3</h3>					<h5 class="subtitle"><span class="subpages">&lt; <a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Programa%C3%A7%C3%A3o_com_Objectos" title="Programação com Objectos">Programação com Objectos</a>‎ | <a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Programa%C3%A7%C3%A3o_com_Objectos/Projecto_de_Programa%C3%A7%C3%A3o_com_Objectos" title="Programação com Objectos/Projecto de Programação com Objectos">Projecto de Programação com Objectos</a></span><div id="mw-revision-info">Revision as of 16:27, 29 October 2022 by <a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/User:Root" title="User:Root" class="mw-userlink">Root</a> <span class="mw-usertoollinks">(<a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/User_talk:Root" title="User talk:Root">talk</a> | <a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Special:Contributions/Root" title="Special:Contributions/Root">contribs</a>)</span> <span class="comment">(<a href="#Iniciar_comunica.C3.A7.C3.A3o_interactiva">→</a>‎<span dir="auto"><span class="autocomment">Iniciar comunicação interactiva</span></span>)</span></div><br>
+				<div id="mw-revision-nav">(<a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php?title=Programa%C3%A7%C3%A3o_com_Objectos/Projecto_de_Programa%C3%A7%C3%A3o_com_Objectos/Enunciado_do_Projecto_de_2022-2023&amp;diff=prev&amp;oldid=15480" title="Programação com Objectos/Projecto de Programação com Objectos/Enunciado do Projecto de 2022-2023">diff</a>) <a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php?title=Programa%C3%A7%C3%A3o_com_Objectos/Projecto_de_Programa%C3%A7%C3%A3o_com_Objectos/Enunciado_do_Projecto_de_2022-2023&amp;direction=prev&amp;oldid=15480" title="Programação com Objectos/Projecto de Programação com Objectos/Enunciado do Projecto de 2022-2023">← Older revision</a> | Latest revision (diff) | Newer revision → (diff)</div></h5>
+					<div class="clear_both"></div>
+					<div class="mw-bodytext">
+						<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="mw-collapsible mw-collapsed wikitable" align="right" style="border-style: solid; border-width: 1px; border-color: #bbbbaa; background: #f7f8ff; margin-bottom: 5px !important;">
+<tbody><tr>
+<th style="padding-left:10px; padding-right:10px; border-style: solid; border-width: 0px; border-bottom-width: 0px; border-color: #bbbbaa; background: #d7d8ed;"><span class="mw-collapsible-toggle mw-collapsible-toggle-collapsed"><span class="mw-collapsible-bracket">[</span><a href="#">Expand</a><span class="mw-collapsible-bracket">]</span></span> AVISOS - Avaliação em Época Normal
+</th></tr>
+<tr style="display: none;">
+<th style="padding-left:10px; padding-right:10px; font-weight: normal; border-style: solid; border-width: 1px; border-color: #bbbbaa;">
+<p>Esclarecimento de dúvidas:
+</p>
+<ul><li> Consultar sempre o corpo docente atempadamente: presencialmente ou através do endereço oficial da disciplina <a rel="nofollow" class="external autonumber" href="mailto:po22@hlt.inesc-id.pt">[1]</a>.</li>
+<li> Não utilizar fontes de informação não oficialmente associadas ao 
+corpo docente (podem colocar em causa a aprovação à disciplina).</li>
+<li> Não são aceites justificações para violações destes conselhos: 
+quaisquer consequências nefastas são da responsabilidade do aluno.</li></ul>
+</th></tr>
+<tr style="display: none;">
+<th style="padding-left:10px; padding-right:10px; font-weight: normal; border-style: solid; border-width: 1px; border-color: #bbbbaa;">
+<p>Requisitos para desenvolvimento, material de apoio e actualizações do enunciado (ver informação completa em <a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Programa%C3%A7%C3%A3o_com_Objectos/Projecto_de_Programa%C3%A7%C3%A3o_com_Objectos" title="Programação com Objectos/Projecto de Programação com Objectos">Projecto de Programação com Objectos</a>):
+</p>
+<ul><li> O material de apoio é de uso obrigatório e não pode ser alterado.</li>
+<li> Verificar atempadamente (mínimo de 48 horas antes do final de cada 
+prazo) os requisitos exigidos pelo processo de desenvolvimento.</li></ul>
+</th></tr>
+<tr style="display: none;">
+<th style="padding-left:10px; padding-right:10px; font-weight: normal; border-style: solid; border-width: 1px; border-color: #bbbbaa;">
+<p>Processo de avaliação (ver informação completa em <a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Programa%C3%A7%C3%A3o_com_Objectos/Projecto_de_Programa%C3%A7%C3%A3o_com_Objectos/Avalia%C3%A7%C3%A3o_do_Projecto_(%C3%89poca_Normal)" title="Programação com Objectos/Projecto de Programação com Objectos/Avaliação do Projecto (Época Normal)">Avaliação do Projecto</a>):
+</p>
+<ul><li> Datas: <b>2022/10/04 12:00</b> (inicial); <b>2022/10/21 12:00</b> (intercalar); <b>2022/11/04 12:00</b> (final); <b>2022/11/04 (early bird) 2022/11/07 (normal)</b> (teste prático).</li>
+<li> <b>Todas as entregas são cruciais para o bom desenvolvimento do 
+projecto, sendo obrigatórias: a não realização de uma entrega implica a 
+exclusão da avaliação do projecto e, por consequência, da avaliação da 
+disciplina.</b></li>
+<li> Verificar atempadamente (até 48 horas antes do final de cada prazo)
+ os requisitos exigidos pelo processo de avaliação, incluindo a 
+capacidade de acesso ao repositório.</li>
+<li> <b>Apenas se consideram para avaliação os projectos existentes no 
+repositório oficial. Apenas se considera para avaliação o ramo 'main'.</b></li>
+<li> Trabalhos não presentes no repositório no final do prazo têm 
+classificação 0 (zero) (não são aceites outras formas de entrega). Não 
+são admitidas justificações para atrasos em sincronizações do 
+repositório. A indisponibilidade temporária do repositório ou de outros 
+materiais, desde que inferior a 24 horas, não justifica atrasos na 
+submissão de um trabalho.</li>
+<li> A avaliação do projecto pressupõe o compromisso de honra de que o 
+trabalho correspondente foi realizado pelos alunos correspondentes ao 
+grupo de avaliação. </li>
+<li> <b>Fraudes na execução do projecto terão como resultado a exclusão dos alunos implicados do processo de avaliação.</b></li></ul>
+</th></tr></tbody></table>
+<table class="mw-collapsible mw-collapsed wikitable" align="right" style="border-style: solid; border-width: 1px; border-color: #bbbbaa; background: #ffdb24;">
+<tbody><tr>
+<th style="padding-left:10px; padding-right:10px; border-style: solid; border-width: 0px; border-bottom-width: 0px; border-color: #bbbbaa; background: #ffdb24;"><span class="mw-collapsible-toggle mw-collapsible-toggle-collapsed"><span class="mw-collapsible-bracket">[</span><a href="#">Expand</a><span class="mw-collapsible-bracket">]</span></span> <b><font color="brown">Material de Uso Obrigatório</font></b>
+</th></tr>
+<tr style="display: none;">
+<th style="padding-left:10px; padding-right:10px; font-weight: normal; border-style: solid; border-width: 0px; border-color: #bbbbaa;"> As bibliotecas <strong>po-uilib</strong> e o conteúdo inicial do CVS são de <strong>uso obrigatório</strong>:
+</th></tr>
+<tr style="display: none;">
+<th style="padding-left:10px; padding-right:10px; font-weight: normal; border-style: solid; border-width: 0px; border-color: #bbbbaa;">
+<ul><li> po-uilib (classes de base)  <a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/images/5/50/Po-uilib-202209081626.tar.bz2" class="internal" title="Po-uilib-202209081626.tar.bz2">po-uilib-202209081626.tar.bz2</a> (não pode ser alterada) - <a rel="nofollow" class="external text" href="https://www.hlt.inesc-id.pt/~david/ist/docencia/po/2022-2023/javadoc/">javadoc</a></li>
+<li> prr-core (classes do "core") (via CVS) (deve ser completada -- os nomes das classes fornecidas não podem ser alterados)</li>
+<li> prr-app (classes de interacção) (via CVS) (deve ser completada -- os nomes das classes fornecidas não podem ser alterados)</li></ul>
+</th></tr>
+<tr style="display: none;">
+<th style="padding-left:10px; padding-right:10px; font-weight: normal; border-style: solid; border-width: 0px; border-color: #bbbbaa;"> A <a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Programa%C3%A7%C3%A3o_com_Objectos/Projecto_de_Programa%C3%A7%C3%A3o_com_Objectos/M%C3%A1quina_Virtual" title="Programação com Objectos/Projecto de Programação com Objectos/Máquina Virtual">máquina virtual</a>, fornecida para desenvolvimento do projecto, já contém todo o material de apoio.
+</th></tr>
+<tr style="display: none;">
+<th style="padding-left:10px; padding-right:10px; border-style: solid; border-width: 1px; border-bottom-width: 0px; border-color: #bbbbaa; background: #ffdb24;"> <b><font color="brown">Uso Obrigatório: Repositório CVS</font></b>
+</th></tr>
+<tr style="display: none;">
+<th style="padding-left:10px; padding-right:10px; font-weight: normal; border-style: solid; border-width: 0px; border-color: #bbbbaa;"> <b>Apenas se consideram para avaliação os projectos existentes no <a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Programa%C3%A7%C3%A3o_com_Objectos/Projecto_de_Programa%C3%A7%C3%A3o_com_Objectos/Reposit%C3%B3rio_CVS" title="Programação com Objectos/Projecto de Programação com Objectos/Repositório CVS">repositório CVS oficial</a></b>.
+<p>Trabalhos não presentes no repositório no final do prazo têm 
+classificação 0 (zero) (não são aceites outras formas de entrega). Não 
+são admitidas justificações para atrasos em sincronizações do 
+repositório. A indisponibilidade temporária do repositório, desde que 
+inferior a 24 horas, não justifica atrasos na submissão de um trabalho.
+</p>
+</th></tr></tbody></table>
+<table cellspacing="0" cellpadding="0" style="clear:right; margin-bottom: 1em; float: right; padding: .5em 0 .8em 1.4em; background: none;">
+<tbody><tr>
+<td>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2><span class="toctoggle">&nbsp;[<a href="#" id="togglelink">hide</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Clientes.2C_terminais.2C_comunica.C3.A7.C3.B5es.2C_planos_tarif.C3.A1rios"><span class="tocnumber">1</span> <span class="toctext">Clientes, terminais, comunicações, planos tarifários</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Propriedades_e_funcionalidade_dos_clientes"><span class="tocnumber">1.1</span> <span class="toctext">Propriedades e funcionalidade dos clientes</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Propriedades_e_funcionalidade_dos_terminais"><span class="tocnumber">1.2</span> <span class="toctext">Propriedades e funcionalidade dos terminais</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#Estados_dos_terminais"><span class="tocnumber">1.2.1</span> <span class="toctext">Estados dos terminais</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#Transi.C3.A7.C3.B5es_entre_estados_de_terminais"><span class="tocnumber">1.2.2</span> <span class="toctext">Transições entre estados de terminais</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Notifica.C3.A7.C3.B5es"><span class="tocnumber">1.2.3</span> <span class="toctext">Notificações</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-7"><a href="#Propriedades_e_funcionalidade_das_comunica.C3.A7.C3.B5es"><span class="tocnumber">1.3</span> <span class="toctext">Propriedades e funcionalidade das comunicações</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Planos_tarif.C3.A1rios"><span class="tocnumber">1.4</span> <span class="toctext">Planos tarifários</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Entrega_de_notifica.C3.A7.C3.B5es"><span class="tocnumber">1.5</span> <span class="toctext">Entrega de notificações</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Funcionalidade_da_aplica.C3.A7.C3.A3o"><span class="tocnumber">2</span> <span class="toctext">Funcionalidade da aplicação</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Serializa.C3.A7.C3.A3o"><span class="tocnumber">2.1</span> <span class="toctext">Serialização</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#Requisitos_de_Desenho"><span class="tocnumber">3</span> <span class="toctext">Requisitos de Desenho</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Interac.C3.A7.C3.A3o_com_o_utilizador"><span class="tocnumber">4</span> <span class="toctext">Interacção com o utilizador</span></a>
+<ul>
+<li class="toclevel-2 tocsection-14"><a href="#Menu_Principal"><span class="tocnumber">4.1</span> <span class="toctext">Menu Principal</span></a>
+<ul>
+<li class="toclevel-3 tocsection-15"><a href="#Salvaguarda_do_estado_actual_da_aplica.C3.A7.C3.A3o"><span class="tocnumber">4.1.1</span> <span class="toctext">Salvaguarda do estado actual da aplicação</span></a></li>
+<li class="toclevel-3 tocsection-16"><a href="#Gest.C3.A3o_e_consulta_de_dados_da_aplica.C3.A7.C3.A3o"><span class="tocnumber">4.1.2</span> <span class="toctext">Gestão e consulta de dados da aplicação</span></a></li>
+<li class="toclevel-3 tocsection-17"><a href="#Mostrar_informa.C3.A7.C3.A3o_global_sobre_pagamentos_e_d.C3.ADvidas"><span class="tocnumber">4.1.3</span> <span class="toctext">Mostrar informação global sobre pagamentos e dívidas</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-18"><a href="#Menu_de_gest.C3.A3o_de_clientes"><span class="tocnumber">4.2</span> <span class="toctext">Menu de gestão de clientes</span></a>
+<ul>
+<li class="toclevel-3 tocsection-19"><a href="#Visualizar_cliente"><span class="tocnumber">4.2.1</span> <span class="toctext">Visualizar cliente</span></a></li>
+<li class="toclevel-3 tocsection-20"><a href="#Visualizar_todos_os_clientes"><span class="tocnumber">4.2.2</span> <span class="toctext">Visualizar todos os clientes</span></a></li>
+<li class="toclevel-3 tocsection-21"><a href="#Registar_cliente"><span class="tocnumber">4.2.3</span> <span class="toctext">Registar cliente</span></a></li>
+<li class="toclevel-3 tocsection-22"><a href="#Activar_recep.C3.A7.C3.A3o_de_contactos_falhados"><span class="tocnumber">4.2.4</span> <span class="toctext">Activar recepção de contactos falhados</span></a></li>
+<li class="toclevel-3 tocsection-23"><a href="#Desactivar_recep.C3.A7.C3.A3o_de_contactos_falhados"><span class="tocnumber">4.2.5</span> <span class="toctext">Desactivar recepção de contactos falhados</span></a></li>
+<li class="toclevel-3 tocsection-24"><a href="#Mostrar_informa.C3.A7.C3.A3o_sobre_pagamentos_e_d.C3.ADvidas_de_cliente"><span class="tocnumber">4.2.6</span> <span class="toctext">Mostrar informação sobre pagamentos e dívidas de cliente</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-25"><a href="#Menu_de_Gest.C3.A3o_de_Terminais"><span class="tocnumber">4.3</span> <span class="toctext">Menu de Gestão de Terminais</span></a>
+<ul>
+<li class="toclevel-3 tocsection-26"><a href="#Mostrar_todos_os_terminais"><span class="tocnumber">4.3.1</span> <span class="toctext">Mostrar todos os terminais</span></a></li>
+<li class="toclevel-3 tocsection-27"><a href="#Registar_terminal"><span class="tocnumber">4.3.2</span> <span class="toctext">Registar terminal</span></a></li>
+<li class="toclevel-3 tocsection-28"><a href="#Menu_da_consola_de_um_terminal"><span class="tocnumber">4.3.3</span> <span class="toctext">Menu da consola de um terminal</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-29"><a href="#Menu_de_Consultas"><span class="tocnumber">4.4</span> <span class="toctext">Menu de Consultas</span></a>
+<ul>
+<li class="toclevel-3 tocsection-30"><a href="#Mostrar_todas_as_comunica.C3.A7.C3.B5es"><span class="tocnumber">4.4.1</span> <span class="toctext">Mostrar todas as comunicações</span></a></li>
+<li class="toclevel-3 tocsection-31"><a href="#Mostrar_comunica.C3.A7.C3.B5es_feitas_por_um_cliente"><span class="tocnumber">4.4.2</span> <span class="toctext">Mostrar comunicações feitas por um cliente</span></a></li>
+<li class="toclevel-3 tocsection-32"><a href="#Mostrar_comunica.C3.A7.C3.B5es_recebidas_por_um_cliente"><span class="tocnumber">4.4.3</span> <span class="toctext">Mostrar comunicações recebidas por um cliente</span></a></li>
+<li class="toclevel-3 tocsection-33"><a href="#Mostrar_clientes_sem_d.C3.ADvidas"><span class="tocnumber">4.4.4</span> <span class="toctext">Mostrar clientes sem dívidas</span></a></li>
+<li class="toclevel-3 tocsection-34"><a href="#Mostrar_clientes_com_d.C3.ADvidas"><span class="tocnumber">4.4.5</span> <span class="toctext">Mostrar clientes com dívidas</span></a></li>
+<li class="toclevel-3 tocsection-35"><a href="#Mostrar_terminais_sem_actividade"><span class="tocnumber">4.4.6</span> <span class="toctext">Mostrar terminais sem actividade</span></a></li>
+<li class="toclevel-3 tocsection-36"><a href="#Mostrar_terminais_com_saldo_positivo"><span class="tocnumber">4.4.7</span> <span class="toctext">Mostrar terminais com saldo positivo</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-37"><a href="#Menu_da_consola_de_um_terminal_2"><span class="tocnumber">4.5</span> <span class="toctext">Menu da consola de um terminal</span></a>
+<ul>
+<li class="toclevel-3 tocsection-38"><a href="#Colocar_terminal_em_espera"><span class="tocnumber">4.5.1</span> <span class="toctext">Colocar terminal em espera</span></a></li>
+<li class="toclevel-3 tocsection-39"><a href="#Desligar_terminal"><span class="tocnumber">4.5.2</span> <span class="toctext">Desligar terminal</span></a></li>
+<li class="toclevel-3 tocsection-40"><a href="#Silenciar_terminal"><span class="tocnumber">4.5.3</span> <span class="toctext">Silenciar terminal</span></a></li>
+<li class="toclevel-3 tocsection-41"><a href="#Adicionar_amigo"><span class="tocnumber">4.5.4</span> <span class="toctext">Adicionar amigo</span></a></li>
+<li class="toclevel-3 tocsection-42"><a href="#Retirar_amigo"><span class="tocnumber">4.5.5</span> <span class="toctext">Retirar amigo</span></a></li>
+<li class="toclevel-3 tocsection-43"><a href="#Efectuar_pagamento"><span class="tocnumber">4.5.6</span> <span class="toctext">Efectuar pagamento</span></a></li>
+<li class="toclevel-3 tocsection-44"><a href="#Mostrar_informa.C3.A7.C3.A3o_sobre_pagamentos_e_d.C3.ADvidas"><span class="tocnumber">4.5.7</span> <span class="toctext">Mostrar informação sobre pagamentos e dívidas</span></a></li>
+<li class="toclevel-3 tocsection-45"><a href="#Enviar_comunica.C3.A7.C3.A3o_de_texto"><span class="tocnumber">4.5.8</span> <span class="toctext">Enviar comunicação de texto</span></a></li>
+<li class="toclevel-3 tocsection-46"><a href="#Iniciar_comunica.C3.A7.C3.A3o_interactiva"><span class="tocnumber">4.5.9</span> <span class="toctext">Iniciar comunicação interactiva</span></a></li>
+<li class="toclevel-3 tocsection-47"><a href="#Terminar_comunica.C3.A7.C3.A3o_interactiva"><span class="tocnumber">4.5.10</span> <span class="toctext">Terminar comunicação interactiva</span></a></li>
+<li class="toclevel-3 tocsection-48"><a href="#Mostrar_comunica.C3.A7.C3.A3o_em_curso"><span class="tocnumber">4.5.11</span> <span class="toctext">Mostrar comunicação em curso</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-49"><a href="#Leitura_de_Dados_a_Partir_de_Ficheiros_Textuais"><span class="tocnumber">5</span> <span class="toctext">Leitura de Dados a Partir de Ficheiros Textuais</span></a></li>
+<li class="toclevel-1 tocsection-50"><a href="#Execu.C3.A7.C3.A3o_dos_Programas_e_Testes_Autom.C3.A1ticos"><span class="tocnumber">6</span> <span class="toctext">Execução dos Programas e Testes Automáticos</span></a></li>
+<li class="toclevel-1 tocsection-51"><a href="#Notas_de_Implementa.C3.A7.C3.A3o"><span class="tocnumber">7</span> <span class="toctext">Notas de Implementação</span></a></li>
+</ul>
+</div>
+
+</td></tr></tbody></table>
+<p><b><font color="red">ÉPOCA NORMAL</font></b>
+</p><p>O objectivo do projecto e desenvolver uma aplicação de gestão de uma rede de terminais de comunicação, denominada por <b>prr</b>. Genericamente, o programa permite o registo, gestão e consulta de clientes, terminais e comunicações.
+</p>
+<h1><span class="mw-headline" id="Clientes.2C_terminais.2C_comunica.C3.A7.C3.B5es.2C_planos_tarif.C3.A1rios">Clientes, terminais, comunicações, planos tarifários</span></h1>
+<p>Os clientes, terminais e comunicações possuem chaves únicas, cadeias 
+de caracteres para os clientes e para os terminais e inteiros para as 
+comunicações.
+</p><p>A noção de saldo é definida como a diferença entre os valores dos
+ pagamentos efectuados e das dívidas por pagar. O saldo pode ser 
+calculado globalmente (considerando todos os clientes), por cliente 
+(considerando todos os terminais do cliente) ou por terminal 
+(considerando todas as comunicações do terminal, pagas e por pagar).
+</p>
+<h2><span class="mw-headline" id="Propriedades_e_funcionalidade_dos_clientes">Propriedades e funcionalidade dos clientes</span></h2>
+<p>Cada cliente, para além da chave única, tem ainda o nome (cadeia de 
+caracteres) e o número de identificação fiscal (inteiro). A cada cliente
+ podem estar associados vários terminais.
+</p><p>O cliente mantém informação sobre os pagamentos efectuados (sobre
+ comunicações passadas) e valores em dívida (comunicações cujo valor 
+ainda não foi pago).
+</p><p>Existem três tipos de clientes: <b>Normal</b> (situação inicial, após o registo -- no entanto, ver a situação da leitura de dados textuais), <b>Gold</b> e <b>Platinum</b>. O tipo de cliente influencia o custo das comunicações que efectua (ver <a href="#Planos_tarif.C3.A1rios">planos tarifários</a>). O tipo do cliente evolui nas seguintes condições:
+</p>
+<table>
+<tbody><tr>
+<td> <b>Antes</b>
+</td>
+<td> <b>Depois</b>
+</td>
+<td> <b>Condição</b>
+</td></tr>
+<tr>
+<td> Normal
+</td>
+<td> Gold
+</td>
+<td> O saldo do cliente (após realizar um pagamento) é superior a 500 créditos.
+</td></tr>
+<tr>
+<td> Normal
+</td>
+<td> Platinum
+</td>
+<td> (não é possível)
+</td></tr>
+<tr>
+<td> Gold
+</td>
+<td> Normal
+</td>
+<td> O saldo do cliente (após realizar uma comunicação) é negativo.
+</td></tr>
+<tr>
+<td> Gold
+</td>
+<td> Platinum
+</td>
+<td> O cliente realizou 5 comunicações de vídeo consecutivas e não tem 
+saldo negativo. A contabilização da 5ª comunicação ainda considera que o
+ cliente é do tipo Gold.
+</td></tr>
+<tr>
+<td> Platinum
+</td>
+<td> Gold
+</td>
+<td> O cliente realizou 2 comunicações de texto consecutivas e não tem 
+saldo negativo. A contabilização da 2ª comunicação ainda considera que o
+ cliente é do tipo Platinum.
+</td></tr>
+<tr>
+<td> Platinum
+</td>
+<td> Normal
+</td>
+<td> O saldo do cliente (após realizar uma comunicação) é negativo.
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id="Propriedades_e_funcionalidade_dos_terminais">Propriedades e funcionalidade dos terminais</span></h2>
+<p>Cada terminal é identificado por uma cadeia de caracteres numérica (exactamente 6 dígitos) e está associado a um único cliente. 
+</p><p>Os terminais podem realizar três tipos de comunicação: texto, voz
+ e vídeo. As comunicações realizadas pelo terminal são contabilizadas de
+ acordo com o tarifário associado ao cliente. O terminal tem 
+contabilidade própria, sendo sempre possível saber os valores dos 
+pagamentos efectuados e dos valores devidos.
+</p><p>Existem, pelo menos, dois tipos de terminal: básicos e 
+sofisticados. Os terminais básicos só conseguem realizar comunicações de
+ texto e de voz, não podendo nem iniciar nem receber comunicações de 
+vídeo. Os terminais sofisticados podem realizar todos os tipos de 
+comunicação. 
+</p><p>Cada terminal tem uma lista de amigos (inicialmente vazia). Um terminal não pode ser amigo de si próprio.
+</p><p>Um terminal recém-criado fica no estado de espera (<i>idle</i>); tem os valores de pagamentos e dívidas ambos a zero. Existem outros estados, definidos a seguir.
+</p>
+<h3><span class="mw-headline" id="Estados_dos_terminais">Estados dos terminais</span></h3>
+<p>Cada terminal pode estar em espera, em silêncio, ocupado ou desligado.
+</p>
+<ul><li> Espera -- situação normal sem actividade (<i>idle</i>);</li>
+<li> Silêncio -- tal como em Espera, pode iniciar-se qualquer tipo de 
+comunicação suportada pelo terminal, mas só podem ser recebidas 
+comunicações de texto;</li>
+<li> Ocupado -- não podendo iniciar-se comunicações, mas podem ser recebidas mensagens de texto;</li>
+<li> Desligado -- não podem ser iniciadas ou recebidas comunicações.</li></ul>
+<h3><span class="mw-headline" id="Transi.C3.A7.C3.B5es_entre_estados_de_terminais">Transições entre estados de terminais</span></h3>
+<p>Um terminal pode chegar aos vários estados nas seguintes condições (outras transições não são possíveis):
+</p>
+<ul><li> Espera -- de desligado (ao ligar em espera); de silêncio (ir para espera); de ocupado (final de comunicação);</li>
+<li> Silêncio -- de desligado (ao ligar em silêncio); de espera (colocar em silêncio); de ocupado (final de comunicação);</li>
+<li> Ocupado -- de espera ou de silêncio (início de comunicação);</li>
+<li> Desligado -- de espera ou de silêncio (ao desligar).</li></ul>
+<h3><span class="mw-headline" id="Notifica.C3.A7.C3.B5es">Notificações</span></h3>
+<p>Apenas são passíveis de notificação os clientes que tentaram 
+comunicação com um terminal e a comunicação não foi possível nessa 
+altura. Quando uma comunicação não se efectua, regista-se a tentativa de
+ contacto, para que, assim que seja possível a realização do contacto 
+pretendido, se enviarem notificações aos clientes associados aos 
+terminais de origem. O registo da tentativa de contactos só tem lugar 
+quando o cliente do terminal de origem tem activa a recepção de 
+contactos falhados no instante em que se tentou efectuar a comunicação 
+(por omissão, a recepção de notificações está activa).
+</p><p>São geradas notificações e é possível avisar um cliente nas seguintes circunstâncias: 
+</p>
+<ol><li> Um terminal desligado é colocado em silêncio (<i>off-to-silent</i>): notifica-se disponibilidade para receber comunicações de texto.</li>
+<li> Um terminal desligado ou em silêncio é colocado em espera (<i>off-to-idle</i> ou <i>silent-to-idle</i>): notifica-se disponibilidade para receber comunicações (qualquer suportada).</li>
+<li> Um terminal deixa de estar ocupado (<i>busy-to-idle</i>): notifica-se disponibilidade para receber comunicações (qualquer suportada).</li></ol>
+<h2><span class="mw-headline" id="Propriedades_e_funcionalidade_das_comunica.C3.A7.C3.B5es">Propriedades e funcionalidade das comunicações</span></h2>
+<p>Cada comunicação tem um identificador único (número inteiro, no 
+contexto de todos os clientes). A primeira tem como identificador “1”, 
+sendo os identificadores subsequentes obtidos por incremento unitário do
+ mais recente identificador utilizado. A comunicação contém ainda 
+informação sobre os terminais de origem e de destino e o estado da 
+comunicação: em curso ou terminada. 
+</p><p>As comunicações de texto têm ainda a mensagem enviada. As 
+comunicações interactivas (vídeo e voz) possuem informação sobre a 
+duração da comunicação. O custo de uma comunicação depende do 
+comprimento da mensagem de texto ou da duração das comunicações 
+interactivas. O custo depende ainda do <a href="#Planos_tarif.C3.A1rios">plano tarifário</a>
+ associado a cada cliente (calculado no final da comunicação). Todos os 
+cálculos envolvendo os custos das comunicações devem ser realizados sem 
+arredondamentos.
+</p><p>Um terminal não pode estabelecer uma comunicação interactiva consigo próprio.
+</p>
+<h2><span class="mw-headline" id="Planos_tarif.C3.A1rios">Planos tarifários</span></h2>
+<p>Cada plano tarifário define os custos para cada tipo de comunicação, 
+baseado no nível do cliente, no tipo de comunicação, entre outras 
+características. Os planos tarifários têm um nome único no contexto da 
+rede de terminais a que estão associados. A rede de terminais pode 
+oferecer vários planos tarifários mas em cada momento um cliente apenas 
+tem um plano tarifário. A rede de terminais oferece pelo menos o plano 
+tarifário designado como <b>base</b>. Este plano tarifário é o plano atribuído inicialmente a todos os clientes. O custos das comunicações é medido em créditos.
+</p><p>O custo (medido em créditos) de uma comunicação de texto com <b>N</b> caracteres no plano tarifário base está representado na tabela seguinte:
+</p>
+<table>
+<tbody><tr>
+<th style="width: 40%;">
+</th>
+<th style="width: 20%;"> <b>Normal</b>
+</th>
+<th style="width: 20%;"> <b>Gold</b>
+</th>
+<th style="width: 20%;"> <b>Platinum</b>
+</th></tr>
+<tr>
+<td> <b>N</b> &lt; 50 caracteres
+</td>
+<td> 10
+</td>
+<td> 10
+</td>
+<td> 0
+</td></tr>
+<tr>
+<td> 50 caracteres &lt;= <b>N</b> &lt; 100 caracteres
+</td>
+<td> 16
+</td>
+<td> 10
+</td>
+<td> 4
+</td></tr>
+<tr>
+<td> <b>N</b> &gt;= 100 caracteres
+</td>
+<td> 2 x <b>N</b>
+</td>
+<td> 2 x <b>N</b>
+</td>
+<td> 4
+</td></tr></tbody></table>
+<p>Quando é efectuada uma comunicação de voz ou de vídeo, o custo no 
+plano tarifário base é proporcional ao tempo de conversação e, quando se
+ comunica com um terminal amigo, é aplicado um desconto de 50%. O custo,
+ em créditos por minuto, é o seguinte para terminais não amigos:
+</p>
+<table>
+<tbody><tr>
+<th style="width: 40%;">
+</th>
+<th style="width: 20%;"> <b>Normal</b>
+</th>
+<th style="width: 20%;"> <b>Gold</b>
+</th>
+<th style="width: 20%;"> <b>Platinum</b>
+</th></tr>
+<tr>
+<td> Comunicação de voz
+</td>
+<td> 20
+</td>
+<td> 10
+</td>
+<td> 10
+</td></tr>
+<tr>
+<td> Comunicação de vídeo
+</td>
+<td> 30
+</td>
+<td> 20
+</td>
+<td> 10
+</td></tr></tbody></table>
+<p>O custo de uma comunicação deve ser calculado quando a comunicação 
+termina e guardado, por forma a garantir que o custo não é afectado por 
+mudanças futuras dos planos tarifários.
+</p>
+<h2><span class="mw-headline" id="Entrega_de_notifica.C3.A7.C3.B5es">Entrega de notificações</span></h2>
+<p>Os clientes podem activar a recepção de notificações sobre eventos 
+associados a terminais em algumas circunstâncias. Em qualquer momento, 
+um cliente pode activar ou desactivar essas notificações. A entrega de 
+notificações deve ser flexível e deve prever vários meios de entrega, 
+e.g., correio postal, SMS, email, entre outras. O meio de entrega por 
+omissão corresponde a registar a notificação na aplicação.
+</p><p>As notificações contêm informação acerca da sua natureza e do 
+terminal a que dizem respeito. Um dado evento apenas produz uma 
+notificação por cliente (o conjunto de clientes a notificar é limpo após
+ o envio da notificação).
+</p>
+<h1><span class="mw-headline" id="Funcionalidade_da_aplica.C3.A7.C3.A3o">Funcionalidade da aplicação</span></h1>
+<p>A aplicação permite manter informação sobre as entidades do modelo. 
+Possui ainda a capacidade de preservar o seu estado (não é possível 
+manter várias versões do estado da aplicação em simultâneo).
+</p><p>Deve ser possível efectuar pesquisas sujeitas a vários critérios e sobre as diferentes entidades geridas pela aplicação.
+</p><p>Uma base de dados textual com conceitos pré-definidos pode ser <a href="#Leitura_de_Dados_a_Partir_de_Ficheiros_Textuais">carregada no início da aplicação</a>.
+</p>
+<div style="padding: 5px; background: #f5fff2; width: 100%;"><div style="wrap: right; display: inline;"><span style="float: left; color: #408000; font-size: 150%; padding-right: 8px; padding-left: 3px;" class="fa fa-lightbulb-o"></span></div><span style="display: inline; font-size: 90%; line-height 0px; color: #408000;">Note-
+se que não é necessário nem desejável implementar de raiz a aplicação: 
+já existem classes que representam e definem a interface geral da 
+funcionalidade do <i>core</i> da aplicação, tal como é visível pelos comandos da aplicação.</span></div>
+<div style="padding: 5px; background: #f5fff2; width: 100%;"><div style="wrap: right; display: inline;"><span style="float: left; color: #408000; font-size: 150%; padding-right: 8px; padding-left: 3px;" class="fa fa-files-o"></span></div><span style="display: inline; font-size: 90%; line-height 0px; color: #408000;">A interface geral do <i>core</i> já está parcialmente implementada na classe <b>prr.Manager</b>
+ e outras fornecidas (cujos nomes devem ser mantidos), devendo ser 
+adaptadas onde necessário. É ainda necessário criar e implementar as 
+restantes classes que suportam a operação da aplicação.</span></div>
+<h2><span class="mw-headline" id="Serializa.C3.A7.C3.A3o">Serialização</span></h2>
+<p>É possível guardar e recuperar o estado actual da aplicação, preservando toda a informação relevante, descrita acima.
+</p>
+<h1><span class="mw-headline" id="Requisitos_de_Desenho">Requisitos de Desenho</span></h1>
+<p>Devem ser possíveis extensões ou alterações de funcionalidade com 
+impacto mínimo no código já produzido para a aplicação. O objectivo é 
+aumentar a flexibilidade da aplicação relativamente ao suporte de novas 
+funções. Assim, deve ser possível: definir novos tipos de clientes; 
+definir novos tipos de comunicação; definir novos planos tarifários; 
+definir novas formas de pesquisa; permitir a gestão de várias redes de 
+terminais.
+</p><p>Embora na especificação actual não seja possível remover algumas 
+entidades, a inclusão desta funcionalidade deve ser prevista, por forma a
+ minimizar o impacto da sua futura inclusão.
+</p>
+<h1><span class="mw-headline" id="Interac.C3.A7.C3.A3o_com_o_utilizador">Interacção com o utilizador</span></h1>
+<p>Descreve-se nesta secção a <b>funcionalidade máxima</b> da interface 
+com o utilizador. Em geral, os comandos pedem toda a informação antes de
+ procederem à sua validação (excepto onde indicado). Todos os menus têm 
+automaticamente a opção <b>Sair</b> (fecha o menu).
+</p><p>As operações de pedido e apresentação de informação ao utilizador <b>devem</b> realizar-se através dos objectos <i>form</i> e <i>display</i>, respectivamente, presentes em cada comando. As mensagens são produzidas pelos métodos das <a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Programa%C3%A7%C3%A3o_com_Objectos/Projecto_de_Programa%C3%A7%C3%A3o_com_Objectos/Material_de_Apoio_ao_Desenvolvimento" title="Programação com Objectos/Projecto de Programação com Objectos/Material de Apoio ao Desenvolvimento">bibliotecas de suporte</a> (<b>po-uilib</b> e <b>prr-app</b>). As mensagens não podem ser usadas no núcleo da aplicação (<b>prr-core</b>). Além disso, não podem ser definidas novas. Potenciais omissões devem ser esclarecidas antes de qualquer implementação.
+</p><p>A apresentação de valores monetários é sempre feita com 
+arredondamento ao inteiro mais próximo, mas a representação interna não 
+deve ser arredondada.
+</p><p>A apresentação de listas de entidades do domínio (clientes, etc.)
+ faz-se por ordem crescente da respectiva chave: dependendo dos casos, a
+ ordem pode ser numérica ou lexicográfica (UTF-8), não havendo distinção
+ entre maiúsculas e minúsculas.
+</p><p>As excepções usadas na interacção (subclasses de <b>pt.tecnico.uilib.menus.CommandException</b>), excepto se indicado, são lançadas pelos comandos (subclasses de <b>pt.tecnico.uilib.menus.Command</b>) e tratadas pelos menus (instâncias de subclasses de <b>pt.tecnico.uilib.menus.Menu</b>). Outras excepções não devem substituir as fornecidas nos casos descritos.
+</p>
+<div style="padding: 5px; background: #f5fff2; width: 100%;"><div style="wrap: right; display: inline;"><span style="float: left; color: #408000; font-size: 150%; padding-right: 8px; padding-left: 3px;" class="fa fa-files-o"></span></div><span style="display: inline; font-size: 90%; line-height 0px; color: #408000;">Note-se que o programa principal e os comandos e menus, a seguir descritos, já estão parcialmente implementados nas <i>packages</i> <b>prr.app</b>, <b>prr.app.clients</b>, <b>prr.app.lookups</b>, <b>prr.app.main</b>, <b>prr.app.terminal</b>, <b>prr.app.terminals</b>. Estas classes são de uso obrigatório e estão disponíveis no <a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Programa%C3%A7%C3%A3o_com_Objectos/Projecto_de_Programa%C3%A7%C3%A3o_com_Objectos/Reposit%C3%B3rio_CVS" title="Programação com Objectos/Projecto de Programação com Objectos/Repositório CVS">CVS</a> (módulo <b>prr-app</b>).</span></div>
+<h2><span class="mw-headline" id="Menu_Principal">Menu Principal</span></h2>
+<p>As acções deste menu permitem gerir a salvaguarda do estado da 
+aplicação, abrir submenus e aceder a alguma informação global. A lista 
+completa é a seguinte: <a href="#Salvaguarda_do_estado_actual_da_aplica.C3.A7.C3.A3o">Abrir</a>, <a href="#Salvaguarda_do_estado_actual_da_aplica.C3.A7.C3.A3o">Guardar</a>, <a href="#Gest.C3.A3o_e_consulta_de_dados_da_aplica.C3.A7.C3.A3o">Gestão de clientes</a>, <a href="#Gest.C3.A3o_e_consulta_de_dados_da_aplica.C3.A7.C3.A3o">Gestão de terminais</a>, <a href="#Gest.C3.A3o_e_consulta_de_dados_da_aplica.C3.A7.C3.A3o">Consultas</a>, <a href="#Mostrar_informa.C3.A7.C3.A3o_global_sobre_pagamentos_e_d.C3.ADvidas">Mostrar informação global sobre pagamentos e dívidas</a>.
+</p><p>As etiquetas das opções deste menu estão definidas na classe <b>prr.app.main.Label</b>. Todos os métodos correspondentes às mensagens de diálogo para este menu estão definidos na classe <b>prr.app.main.Message</b>.
+</p>
+<div style="padding: 5px; background: #f5fff2; width: 100%;"><div style="wrap: right; display: inline;"><span style="float: left; color: #408000; font-size: 150%; padding-right: 8px; padding-left: 3px;" class="fa fa-files-o"></span></div><span style="display: inline; font-size: 90%; line-height 0px; color: #408000;">Estes comandos já estão implementados nas classes da <i>package</i> <b>prr.app.main</b> (disponível no CVS), respectivamente: <b>DoOpenFile</b>, <b>DoSaveFile</b>, <b>DoOpenMenuClient</b>, <b>DoOpenMenuTerminals</b>, <b>DoOpenMenuLookups</b>, <b>DoShowGlobalBalance</b>.</span></div>
+<h3><span class="mw-headline" id="Salvaguarda_do_estado_actual_da_aplica.C3.A7.C3.A3o">Salvaguarda do estado actual da aplicação</span></h3>
+<p>Inicialmente, a aplicação está vazia ou tem apenas informação sobre as entidades que foram carregadas via <a href="#Leitura_de_Dados_a_Partir_de_Ficheiros_Textuais">ficheiro textual</a>.
+</p><p>O conteúdo da aplicação (toda a informação actualmente em 
+memória) pode ser guardado para posterior recuperação (via serialização 
+Java: <b>java.io.Serializable</b>). Na leitura e escrita do estado da aplicação, devem ser tratadas as excepções associadas. A funcionalidade é a seguinte:
+</p>
+<ul><li> <b>Abrir</b> -- Carrega os dados de uma sessão anterior a 
+partir de um ficheiro previamente guardado (ficando este ficheiro 
+associado à aplicação, para futuras operações de salvaguarda). Pede-se o
+ nome do ficheiro a abrir (<b>Prompt.openFile()</b>). Caso ocorra um problema na abertura ou processamento do ficheiro, deve ser lançada a excepção <b>FileOpenFailedException</b>. A execução bem-sucedida desta opção substitui toda a informação da aplicação.</li>
+<li> <b>Guardar</b> -- Guarda o estado actual da aplicação no ficheiro 
+associado. Se não existir associação, pede-se o nome do ficheiro a 
+utilizar, ficando a ele associado (para operações de salvaguarda 
+subsequemtes). Esta interacção realiza-se através do método <b>Prompt.newSaveAs()</b>. Não é executada nenhuma acção se não existirem alterações desde a última salvaguarda.</li></ul>
+<p>Note-se que a opção <b>Abrir</b> não permite a leitura de ficheiros de texto (estes apenas podem ser utilizados no início da aplicação).
+</p><p>A opção <b>Sair</b> nunca implica a salvaguarda do estado da aplicação, mesmo que existam alterações.
+</p>
+<h3><span class="mw-headline" id="Gest.C3.A3o_e_consulta_de_dados_da_aplica.C3.A7.C3.A3o">Gestão e consulta de dados da aplicação</span></h3>
+<ul><li> <b>Menu de Gestão de Clientes</b> -- Abre o menu de gestão de clientes.</li>
+<li> <b>Menu de Gestão de Terminais</b> -- Abre o menu de gestão de terminais.</li>
+<li> <b>Menu de Consultas</b> -- Abre o menu de consultas (pesquisas).</li></ul>
+<h3><span class="mw-headline" id="Mostrar_informa.C3.A7.C3.A3o_global_sobre_pagamentos_e_d.C3.ADvidas">Mostrar informação global sobre pagamentos e dívidas</span></h3>
+<p>Esta opção apresenta os valores globais correspondentes a pagamentos e
+ dívidas (soma dos valores parciais para todos os clientes registados), 
+através da mensagem <b>Message.globalPaymentsAndDebts()</b>.
+</p>
+<h2><span class="mw-headline" id="Menu_de_gest.C3.A3o_de_clientes">Menu de gestão de clientes</span></h2>
+<p>Este menu permite efectuar operações sobre a base de dados de clientes. A lista completa é a seguinte: <a href="#Visualizar_cliente">Visualizar cliente</a>, <a href="#Visualizar_todos_os_clientes">Visualizar todos os clientes</a>, <a href="#Registar_cliente">Registar cliente</a>, <a href="#Activar_recep.C3.A7.C3.A3o_de_contactos_falhados">Activar recepção de contactos falhados</a>, <a href="#Desactivar_recep.C3.A7.C3.A3o_de_contactos_falhados">Desactivar recepção de contactos falhados</a>, <a href="#Mostrar_informa.C3.A7.C3.A3o_sobre_pagamentos_e_d.C3.ADvidas_de_cliente">Mostrar informação sobre pagamentos e dívidas de cliente</a>.
+</p><p>Todos os métodos correspondentes às mensagens de diálogo para este menu estão definidos na classe <b>prr.app.clients.Message</b>.
+</p><p>Sempre que é pedido o identificador de um cliente (<b>Prompt.key()</b>) e o identificador não existir (excepto no processo de registo), é lançada a excepção <b>UnknownClientKeyException</b>. Na ocorrência de excepções, as operações não têm efeito.
+</p>
+<div style="padding: 5px; background: #f5fff2; width: 100%;"><div style="wrap: right; display: inline;"><span style="float: left; color: #408000; font-size: 150%; padding-right: 8px; padding-left: 3px;" class="fa fa-files-o"></span></div><span style="display: inline; font-size: 90%; line-height 0px; color: #408000;">Estes comandos já estão implementados nas classes da <i>package</i> <b>prr.app.clients</b> (disponível no CVS), respectivamente: <b>DoShowClient</b>, <b>DoShowAllClients</b>, <b>DoRegisterClient</b>, <b>DoEnableClientNotifications</b>, <b>DoDisableClientNotifications</b>, <b>DoShowClientPaymentsAndDebts</b>.</span></div>
+<h3><span class="mw-headline" id="Visualizar_cliente">Visualizar cliente</span></h3>
+<p>É pedido o identificador do cliente e apresentada a sua informação. O
+ formato de apresentação de cada cliente é como se indica de seguida. Os
+ valores para <i>type</i> são <b>NORMAL</b>, <b>GOLD</b>, ou <b>PLATINUM</b>. Os valores para <i>notifications</i> são <b>YES</b> ou <b>NO</b> (notificações activas/inactivas). O campo <i>terminals</i> representa o número de terminais associados ao cliente, <i>payments</i> é o valor dos pagamentos do cliente e <i>debts</i> é o valor das dívidas do cliente. Se o cliente não tiver terminais, os valores de <i>terminals</i>, <i>payments</i> e <i>debts</i> são 0 (zero). 
+</p>
+<pre>CLIENT|<i>key</i>|<i>name</i>|<i>taxId</i>|<i>type</i>|<i>notifications</i>|<i>terminals</i>|<i>payments</i>|<i>debts</i>
+</pre>
+<p>Após esta linha, são apresentadas as notificações do cliente (modo de
+ entrega por omissão), pela ordem em que foram enviadas pela aplicação.
+</p>
+<pre><i>tipo-de-notificação</i>|<i>idTerminal</i>
+</pre>
+<p>O tipo de notificação é um de <b>O2S</b> (off-to-silent), <b>O2I</b> (off-to-idle), <b>B2I</b> (busy-to-idle) ou <b>S2I</b>
+ (silent-to-idle), tal como descritos acima. Após esta visualização, 
+considera-se que o cliente fica sem notificações registadas.
+</p>
+<h3><span class="mw-headline" id="Visualizar_todos_os_clientes">Visualizar todos os clientes</span></h3>
+<p>O formato de apresentação é como para clientes individuais (opção 
+anterior), mas não se apresentam as notificações dos clientes (nem se 
+limpam as listas correspondentes).
+</p>
+<h3><span class="mw-headline" id="Registar_cliente">Registar cliente</span></h3>
+<p>O sistema pede o identificador que ficará associado ao cliente (identificador único}. De seguida, pede o nome do cliente (<b>Prompt.name()</b>) e o número de identificação fiscal (<b>Prompt.taxId()</b>). Após o registo, o cliente fica no estado <b>Normal</b> e o registo de contactos falhados fica activo.
+</p><p>Caso o identificador indicado já exista, deve ser lançada a excepção <b>DuplicateClientKeyException</b>, não se realizando o registo.
+</p>
+<h3><span class="mw-headline" id="Activar_recep.C3.A7.C3.A3o_de_contactos_falhados">Activar recepção de contactos falhados</span></h3>
+<p>É pedido o identificador do cliente. Se o registo de contactos 
+falhados já estava activo, o cliente não é alterado e é apresentada a 
+mensagem <b>Message.clientNotificationsAlreadyEnabled()</b>.
+</p>
+<h3><span class="mw-headline" id="Desactivar_recep.C3.A7.C3.A3o_de_contactos_falhados">Desactivar recepção de contactos falhados</span></h3>
+<p>É pedido o identificador do cliente. Se o registo de contactos 
+falhados já estava inactivo, o cliente não é alterado e é apresentada a 
+mensagem <b>Message.clientNotificationsAlreadyDisabled()</b>.
+</p>
+<h3><span class="mw-headline" id="Mostrar_informa.C3.A7.C3.A3o_sobre_pagamentos_e_d.C3.ADvidas_de_cliente">Mostrar informação sobre pagamentos e dívidas de cliente</span></h3>
+<p>O sistema pede o identificador do cliente, apresentando os valores dos seus pagamentos e dívidas (<b>Message.clientPaymentsAndDebts()</b>).
+</p>
+<h2><span class="mw-headline" id="Menu_de_Gest.C3.A3o_de_Terminais">Menu de Gestão de Terminais</span></h2>
+<p>Este menu permite efectuar operações sobre a base de dados de terminais. A lista completa é a seguinte: <a href="#Mostrar_todos_os_terminais">Mostrar todos os terminais</a>, <a href="#Registar_terminal">Registar terminal</a>, <a href="#Menu_da_consola_de_um_terminal">Menu da consola de um terminal</a>.
+</p><p>Todos os métodos correspondentes às mensagens de diálogo para este menu estão definidos na classe <b>prr.app.terminals.Message</b>.
+</p><p>Sempre que for pedido o identificador de um terminal (<b>Prompt.terminalKey()</b>) e o terminal não existir, é lançada a excepção <b>UnknownTerminalKeyException</b> (excepto no processo de registo). Sempre que é pedido o identificador de um cliente (<b>Prompt.clientKey()</b>) e o identificador não existir, é lançada a excepção <b>UnknownClientKeyException</b>. Na ocorrência de excepções (estas ou outras), as operações não têm efeito.
+</p>
+<div style="padding: 5px; background: #f5fff2; width: 100%;"><div style="wrap: right; display: inline;"><span style="float: left; color: #408000; font-size: 150%; padding-right: 8px; padding-left: 3px;" class="fa fa-files-o"></span></div><span style="display: inline; font-size: 90%; line-height 0px; color: #408000;">Estes comandos já estão implementados nas classes da <i>package</i> <b>prr.app.terminals</b> (disponível no CVS), respectivamente: <b>DoShowAllTerminals</b>, <b>DoRegisterTerminal</b>, <b>DoOpenMenuTerminalConsole</b>.</span></div>
+<h3><span class="mw-headline" id="Mostrar_todos_os_terminais">Mostrar todos os terminais</span></h3>
+<p>O formato de apresentação de cada terminal é um dos seguintes:
+</p>
+<pre><i>terminalType</i>|<i>terminalId</i>|<i>clientId</i>|<i>terminalStatus</i>|<i>balance-paid</i>|<i>balance-debts</i>|<i>friend1</i>,...,<i>friend</i>
+<i>terminalType</i>|<i>terminalId</i>|<i>clientId</i>|<i>terminalStatus</i>|<i>balance-paid</i>|<i>balance-debts</i>
+</pre>
+<p>Os valores para o campo <i>terminalType</i> são <b>BASIC</b> (terminais básicos) ou <b>FANCY</b> (terminais sofisticados). Os valores para o campo <i>terminalStatus</i> são <b>IDLE</b>, <b>OFF</b>, <b>SILENCE</b>, <b>BUSY</b>. Os valores <i>friend1</i>, ..., <i>friendN</i>
+ são os identificadores dos terminais amigos e são apresentados por 
+ordem crescente desses identificadores. O segundo formato é para o caso 
+de um terminal que não tem amigos. Note-se que os valores dos pagamentos
+ efectuados e os dos valores em dívida são apresentados separadamente.
+</p>
+<h3><span class="mw-headline" id="Registar_terminal">Registar terminal</span></h3>
+<p>É pedido o número identificador do terminal. De seguida, o sistema pede o tipo de terminal (<b>Prompt.terminalType()</b>). A resposta deve ser <b>BASIC</b> (terminal básico) ou <b>FANCY</b>
+ (terminal sofisticado). Se a resposta não corresponder a nenhum dos 
+dois valores, a pergunta é repetida até se obter uma resposta válida. 
+Finalmente, é pedido o identificador do cliente que ficará associado ao 
+terminal.
+</p><p>Caso o identificador do terminal seja inválido, lança-se a excepção <b>InvalidTerminalKeyException</b>, não se realizando o registo. Caso o identificador indicado já exista, deve ser lançada a excepção <b>DuplicateTerminalKeyException</b>, não se realizando o registo.
+</p>
+<h3><span class="mw-headline" id="Menu_da_consola_de_um_terminal">Menu da consola de um terminal</span></h3>
+<p>É pedido o número identificador de um terminal, sendo aberto o correspondente menu da sua consola.
+</p>
+<h2><span class="mw-headline" id="Menu_de_Consultas">Menu de Consultas</span></h2>
+<p>Este menu apresenta as operações relacionadas com consultas. A lista completa é a seguinte: <a href="#Mostrar_todas_as_comunica.C3.A7.C3.B5es">Mostrar todas as comunicações</a>, <a href="#Mostrar_comunica.C3.A7.C3.B5es_feitas_por_um_cliente">Mostrar comunicações feitas por um cliente</a>, <a href="#Mostrar_comunica.C3.A7.C3.B5es_recebidas_por_um_cliente">Mostrar comunicações recebidas por um cliente</a>, <a href="#Mostrar_clientes_sem_d.C3.ADvidas">Mostrar clientes sem dívidas</a>, <a href="#Mostrar_clientes_com_d.C3.ADvidas">Mostrar clientes com dívidas</a>, <a href="#Mostrar_terminais_sem_actividade">Mostrar terminais sem actividade</a>, <a href="#Mostrar_terminais_com_saldo_positivo">Mostrar terminais com saldo positivo</a>.
+</p><p>Sempre que é pedido o identificador do cliente (<b>Prompt.clientKey()</b>), é lançada a excepção <b>UnknownClientKeyException</b> se o cliente indicado não existir. Sempre que é pedido o identificador de terminal (<b>Prompt.terminalKey()</b>), é lançada a excepção <b>UnknownTerminalKeyException</b> se o terminal indicado não existir.
+</p><p>A apresentação de resultados é como se indica nos casos já 
+descritos de apresentação das várias entidades. Sempre que for feita uma
+ consulta e nenhuma entidade satisfizer as condições associadas ao 
+pedido, nada deve ser apresentado.
+</p>
+<div style="padding: 5px; background: #f5fff2; width: 100%;"><div style="wrap: right; display: inline;"><span style="float: left; color: #408000; font-size: 150%; padding-right: 8px; padding-left: 3px;" class="fa fa-files-o"></span></div><span style="display: inline; font-size: 90%; line-height 0px; color: #408000;">Estes comandos já estão parcialmente implementados nas classes da <i>package</i> <b>prr.app.lookups</b> (disponível no CVS), respectivamente: <b>DoShowAllCommunications</b>, <b>DoShowCommunicationsFromClient</b>, <b>DoShowCommunicationsToClient</b>, <b>DoShowClientsWithoutDebts</b>, <b>DoShowClientsWithDebts</b>, <b>DoShowUnusedTerminals</b>, <b>DoShowTerminalsWithPositiveBalance</b>.</span></div>
+<h3><span class="mw-headline" id="Mostrar_todas_as_comunica.C3.A7.C3.B5es">Mostrar todas as comunicações</span></h3>
+<p>O formato de apresentação é o seguinte:
+</p>
+<pre><i>type</i>|<i>idCommunication</i>|<i>idSender</i>|<i>idReceiver</i>|<i>units</i>|<i>price</i>|<i>status</i>
+</pre>
+<p>Os possíveis valores para o campo <i>type</i> são <b>VOICE</b>, <b>TEXT</b> ou <b>VIDEO</b>. Os campos <i>idSender</i> e <i>idReceiver</i> correspondem a identificadores de terminais. Os possíveis valores para o campo <i>status</i> são <b>ONGOING</b> (comunicação em curso) ou <b>FINISHED</b> (comunicação terminada). O valor de <i>units</i> corresponde às unidades de contabilização (caracteres ou minutos). Caso a comunicação esteja em curso, os valores de <b>units</b> e de <b>price</b> são ambos zero.
+</p>
+<h3><span class="mw-headline" id="Mostrar_comunica.C3.A7.C3.B5es_feitas_por_um_cliente">Mostrar comunicações feitas por um cliente</span></h3>
+<p>É pedido o identificador do cliente, sendo apresentadas as 
+comunicações iniciadas pelos seus terminais. O formato de apresentação é
+ o descrito acima.
+</p>
+<h3><span class="mw-headline" id="Mostrar_comunica.C3.A7.C3.B5es_recebidas_por_um_cliente">Mostrar comunicações recebidas por um cliente</span></h3>
+<p>É pedido o identificador do cliente, sendo apresentadas as 
+comunicações recebidas pelos seus terminais. O formato de apresentação é
+ o descrito acima.
+</p>
+<h3><span class="mw-headline" id="Mostrar_clientes_sem_d.C3.ADvidas">Mostrar clientes sem dívidas</span></h3>
+<p>São apresentados os clientes sem dívidas. Utiliza-se o formato de apresentação de um cliente descrito anteriormente.
+</p>
+<h3><span class="mw-headline" id="Mostrar_clientes_com_d.C3.ADvidas">Mostrar clientes com dívidas</span></h3>
+<p>São apresentados os clientes por ordem decrescente do valor das 
+respectivas dívidas (valores superiores a zero). Se as dívidas tiverem o
+ mesmo valor, apresentam-se os clientes por ordem crescente do seu 
+identificador. Utiliza-se o formato de apresentação de um cliente 
+descrito anteriormente.
+</p>
+<h3><span class="mw-headline" id="Mostrar_terminais_sem_actividade">Mostrar terminais sem actividade</span></h3>
+<p>São apresentados os terminais que ainda não efectuaram nem receberam 
+qualquer comunicação. O formato de apresentação é o descrito acima.
+</p>
+<h3><span class="mw-headline" id="Mostrar_terminais_com_saldo_positivo">Mostrar terminais com saldo positivo</span></h3>
+<p>São apresentados os terminais que que têm um valor de pagamentos 
+estritamente superior ao valor das dívidas. O formato de apresentação é o
+ descrito acima.
+</p>
+<h2><span class="mw-headline" id="Menu_da_consola_de_um_terminal_2">Menu da consola de um terminal</span></h2>
+<p>Este menu apresenta as operações relacionadas com a consola de um 
+terminal, i.e., o seu uso e administração. A lista completa é a 
+seguinte: <a href="#Ligar_terminal">Ligar terminal</a>,  <a href="#Desligar_terminal">Desligar terminal</a>, <a href="#Silenciar_terminal">Silenciar terminal</a>, <a href="#Adicionar_amigo">Adicionar amigo</a>, <a href="#Retirar_amigo">Retirar amigo</a>, <a href="#Efectuar_pagamento">Efectuar pagamento</a>, <a href="#Mostrar_informa.C3.A7.C3.A3o_sobre_pagamentos_e_d.C3.ADvidas">Mostrar informação sobre pagamentos e dívidas</a>, <a href="#Enviar_comunica.C3.A7.C3.A3o_de_texto">Enviar comunicação de texto</a>, <a href="#Iniciar_comunica.C3.A7.C3.A3o_interactiva">Iniciar comunicação interactiva</a>, <a href="#Terminar_comunica.C3.A7.C3.A3o_interactiva">Terminar comunicação interactiva</a>, <a href="#Mostrar_comunica.C3.A7.C3.B5es_em_curso">Mostrar comunicações em curso</a>.
+</p><p>Todos os métodos correspondentes às mensagens de diálogo para este menu estão definidos na classe <b>prr.app.terminal.Message</b>.
+</p><p>Sempre que é pedido o identificador do cliente (<b>Prompt.clientKey()</b>), é lançada a excepção <b>UnknownClientKeyException</b>, se o cliente indicado não existir. Sempre que é pedido o identificador do terminal (<b>Prompt.terminalKey()</b>), é lançada a excepção <b>UnknownTerminalKeyException</b>, se o terminal seleccionado não existir.
+</p>
+<div style="padding: 5px; background: #f5fff2; width: 100%;"><div style="wrap: right; display: inline;"><span style="float: left; color: #408000; font-size: 150%; padding-right: 8px; padding-left: 3px;" class="fa fa-files-o"></span></div><span style="display: inline; font-size: 90%; line-height 0px; color: #408000;">Estes comandos já estão implementados nas classes da <i>package</i> <b>prr.app.terminal</b> (disponível no CVS), respectivamente: <b>DoTurnOnTerminal</b>, <b>DoOffTurnTerminal</b>, <b>DoSilenceTerminal</b>, <b>DoAddFriend</b>, <b>DoRemoveFriend</b>, <b>DoPerformPayment</b>, <b>DoShowTerminalBalance</b>, <b>DoSendTextCommunication</b>, <b>DoStartInteractiveCommunication</b>, <b>DoEndInteractiveCommunication</b>, <b>DoShowOngoingCommunications</b>.</span></div>
+<h3><span class="mw-headline" id="Colocar_terminal_em_espera">Colocar terminal em espera</span></h3>
+<p>Coloca o terminal em espera. Se o terminal já estiver em espera, é apresentada a mensagem <b>Message.alreadyOn()</b>. Se não for possível colocar o terminal em espera, o comando não tem efeito.
+</p>
+<h3><span class="mw-headline" id="Desligar_terminal">Desligar terminal</span></h3>
+<p>Desliga o terminal. Se o terminal já estiver desligado, é apresentada a mensagem <b>Message.alreadyOff()</b> e o comando não realiza outras acções. Se não for possível desligar o terminal, o comando não tem efeito.
+</p>
+<h3><span class="mw-headline" id="Silenciar_terminal">Silenciar terminal</span></h3>
+<p>Coloca o terminal em silêncio. Se o terminal já estiver em silêncio, é apresentada a mensagem <b>Message.alreadySilent()</b>. Se não for possível colocar o terminal em silêncio, o comando não tem efeito.
+</p>
+<h3><span class="mw-headline" id="Adicionar_amigo">Adicionar amigo</span></h3>
+<p>É pedido o identificador do terminal a adicionar à lista de amigos. 
+Se o terminal indicado já fizer parte da lista de amigos, a operação 
+termina sem alterações.
+</p>
+<h3><span class="mw-headline" id="Retirar_amigo">Retirar amigo</span></h3>
+<p>É pedido o identificador do terminal a retirar da lista de amigos. Se
+ o terminal indicado não fizer parte da lista de amigos, a operação 
+termina sem alterações.
+</p>
+<h3><span class="mw-headline" id="Efectuar_pagamento">Efectuar pagamento</span></h3>
+<p>É pedido o identificador da comunicação a pagar (<b>Prompt.commKey()</b>).
+ A comunicação tem de ter sido iniciada pelo terminal actual e tem de 
+ter terminado e não pode ter sido paga. Caso contrário, é apresentada a 
+mensagem <b>Message.invalidCommunication()</b>.
+</p>
+<h3><span class="mw-headline" id="Mostrar_informa.C3.A7.C3.A3o_sobre_pagamentos_e_d.C3.ADvidas">Mostrar informação sobre pagamentos e dívidas</span></h3>
+<p>São apresentados os valores dos pagamentos e das dívidas do terminal (<b>Message.terminalPaymentsAndDebts()</b>).
+</p>
+<h3><span class="mw-headline" id="Enviar_comunica.C3.A7.C3.A3o_de_texto">Enviar comunicação de texto</span></h3>
+<p>Esta operação está disponível para um terminal que não esteja 
+desligado ou em comunicação. Permite enviar uma comunicação de texto 
+para outro terminal.
+</p><p>É pedido o número do terminal de destino e o corpo da mensagem (<b>Prompt.textMessage()</b>).
+</p><p>Quando o terminal de destino está desligado, é apresentada a mensagem <b>Message.destinationIsOff()</b>.
+</p>
+<h3><span class="mw-headline" id="Iniciar_comunica.C3.A7.C3.A3o_interactiva">Iniciar comunicação interactiva</span></h3>
+<p>Esta operação está disponível caso o terminal selecionado não esteja 
+desligado ou em comunicação. Permite estabelecer uma comunicação 
+interactiva entre o terminal selecionado com outro terminal.
+</p><p>É pedido o número do terminal de destino e o tipo de comunicação (<b>Prompt.commType()</b>). A resposta deve ser uma das seguintes opções (cadeia de caracteres): <b>VIDEO</b>, <b>VOICE</b>. Se a resposta não corresponder a nenhum destes valores, a pergunta é repetida até se obter uma resposta válida.
+</p><p>Se se tenta iniciar uma comunicação não suportada pelo terminal 
+de origem ou pelo terminal de destino, devem ser apresentadas as <b>Message.unsupportedAtOrigin()</b> ou <b>Message.unsupportedAtDestination()</b>, respectivamente.
+</p><p>Quando o terminal de destino está desligado, é apresentada a mensagem <b>Message.destinationIsOff()</b>. Quando o terminal de destino está ocupado (ou quando é tentada uma ligação para o próprio), é apresentada a mensagem <b>Message.destinationIsBusy()</b>. Quando o terminal de destino está em silêncio, é apresentada a mensagem <b>Message.destinationIsSilent()</b>.
+</p>
+<h3><span class="mw-headline" id="Terminar_comunica.C3.A7.C3.A3o_interactiva">Terminar comunicação interactiva</span></h3>
+<p>Esta operação está disponível para um terminal que iniciou uma 
+comunicação interactiva enquanto a comunicação está em curso. O terminal
+ de destino não pode interromper a comunicação, pelo que o comando não 
+está disponível. O comando permite terminar a comunicação e registar a 
+sua duração.
+</p><p>É pedida a duração da comunicação (<b>Prompt.duration()</b>, em minutos). Após o término da comunicação, é apresentado o seu custo, através da mensagem <b>Message.communicationCost()</b>.
+</p>
+<h3><span class="mw-headline" id="Mostrar_comunica.C3.A7.C3.A3o_em_curso">Mostrar comunicação em curso</span></h3>
+<p>É apresentada a comunicação em curso (de acordo com o formato indicado acima).
+</p><p>Se não houver nenhuma comunicação em curso, é apresentada a mensagem <b>Message.noOngoingCommunication()</b>.
+</p>
+<h1><span class="mw-headline" id="Leitura_de_Dados_a_Partir_de_Ficheiros_Textuais">Leitura de Dados a Partir de Ficheiros Textuais</span></h1>
+<p>Além das opções de manipulação de ficheiros descritas no <a href="#Salvaguarda_do_Documento_Actual">menu principal</a>, é possível iniciar a aplicação com um ficheiro de texto especificado pela propriedade Java <b><a href="#Execu.C3.A7.C3.A3o_dos_Programas_e_Testes_Autom.C3.A1ticos">import</a></b>.
+</p><p>As várias entidades têm os formatos descritos abaixo. Assume-se que os títulos não podem conter o carácter <b>|</b> (sugere-se a utilização do método <b>String.split</b> para o processamento preliminar destas linhas). Não existem entradas mal-formadas.
+</p><p>Cada linha tem uma descrição distinta, mas que segue os seguintes formatos:
+</p>
+<pre>CLIENT|<i>id</i>|<i>nome</i>|<i>taxId</i>
+<i>terminal-type</i>|<i>idTerminal</i>|<i>idClient</i>|<i>state</i>
+FRIENDS|<i>idTerminal</i>|<i>idTerminal1</i>,...,<i>idTerminalN</i>
+</pre>
+<p>As definições de clientes precedem sempre as dos terminais. As 
+ligações entre amigos estão sempre após a definição das restantes 
+entidades. Para os terminais, <i>terminal-type</i> é <b>BASIC</b> ou <b>FANCY</b>.
+</p><p>Um exemplo de conteúdo do ficheiro inicial é como se segue:
+</p>
+<table class="mw-collapsible mw-collapsed wikitable" align="right" style="border-style: solid; border-width: 1px; border-color: #dddddd; background: #fcfcfc;">
+<tbody><tr>
+<th style="padding-left:10px; padding-right:10px; border-style: solid; border-width: 0px; border-bottom-width: 0px; border-color: #dddddd; background: #f8f8f8;"><span class="mw-collapsible-toggle mw-collapsible-toggle-collapsed"><span class="mw-collapsible-bracket">[</span><a href="#">Expand</a><span class="mw-collapsible-bracket">]</span></span> Exemplo de ficheiro de entrada textual
+</th></tr>
+<tr style="display: none;">
+<th style="padding: 0px; border-style: solid; border-width: 0px; border-top-width: 0px; border-color: #dddddd;">
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>CLIENT|cli001|Manuel Pinheiro|103443
+CLIENT|cli002|Pedro Pinheiro|103447
+CLIENT|Cli201|Ludgero Oliveira|103440
+CLIENT|cli Es|Maria Eucalipto|103441
+CLIENT|01|Oliveira Preto|103547
+CLIENT|cli003|Pedro Oliveira|103449
+BASIC|969001|cli001|ON
+BASIC|969003|cli002|ON
+FANCY|969002|cli002|SILENCE
+FANCY|969007|cli Es|ON
+BASIC|969008|cli003|OFF
+BASIC|969009|cli003|OFF
+BASIC|969010|cli003|ON
+FANCY|969006|cli003|ON
+FANCY|969005|cli003|ON
+BASIC|969004|cli003|ON
+FRIENDS|969001|969008,969009,969004
+FRIENDS|969004|969001
+FRIENDS|969003|969008
+</pre></div>
+</th></tr></tbody></table>
+<p>A codificação dos ficheiros a ler é garantidamente <a href="http://en.wikipedia.org/wiki/UTF-8" class="extiw" title="wp:UTF-8">UTF-8</a>.
+</p>
+<div style="padding: 5px; background: #f5fff2; width: 100%;"><div style="wrap: right; display: inline;"><span style="float: left; color: #408000; font-size: 150%; padding-right: 8px; padding-left: 3px;" class="fa fa-lightbulb-o"></span></div><span style="display: inline; font-size: 90%; line-height 0px; color: #408000;">Note-se que o programa nunca produz ficheiros com este formato.</span></div>
+<h1><span class="mw-headline" id="Execu.C3.A7.C3.A3o_dos_Programas_e_Testes_Autom.C3.A1ticos">Execução dos Programas e Testes Automáticos</span></h1>
+<p>Usando os ficheiros <b>test.import</b>, <b>test.in</b> e <b>test.out</b>,
+ é possível verificar automaticamente o resultado correcto do programa. 
+Note-se que é necessária a definição apropriada da variável <b>CLASSPATH</b> (ou da opção equivalente <b>-cp</b> do comando <b>java</b>), para localizar as classes do programa, incluindo a que contém o método correspondente ao ponto de entrada da aplicação (<b>prr.app.App.main</b>). As propriedades são tratadas automaticamente pelo código de apoio.
+</p>
+<pre>       java -Dimport=test.import -Din=test.in -Dout=test.outhyp prr.app.App
+</pre>
+<p>Assumindo que aqueles ficheiros estão no directório onde é dado o comando de execução, o programa produz o ficheiro de saída <b>test.outhyp</b>. Em caso de sucesso, os ficheiros das saídas esperada (<b>test.out</b>) e obtida (<b>test.outhyp</b>) devem ser iguais. A comparação pode ser feita com o comando:
+</p>
+<pre>        diff -b test.out test.outhyp
+</pre>
+<p>Este comando não deve produzir qualquer resultado quando os ficheiros
+ são iguais. Note-se, contudo, que este teste não garante o correcto 
+funcionamento do código desenvolvido, apenas verificando alguns aspectos
+ da sua funcionalidade.
+</p>
+<h1><span class="mw-headline" id="Notas_de_Implementa.C3.A7.C3.A3o">Notas de Implementação</span></h1>
+<p>Tal como indicado acima, algumas classes fornecidas como <a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Programa%C3%A7%C3%A3o_com_Objectos/Projecto_de_Programa%C3%A7%C3%A3o_com_Objectos/Material_de_Apoio_ao_Desenvolvimento" title="Programação com Objectos/Projecto de Programação com Objectos/Material de Apoio ao Desenvolvimento">material de apoio</a>, são de uso obrigatório e não podem ser alteradas. Outras dessas classes são de uso obrigatório e têm de ser alteradas.
+</p><p>A serialização Java usa as classes da <i>package</i> <b><a rel="nofollow" class="external text" href="https://docs.oracle.com/javase/8/docs/api/java/io/package-summary.html">java.io</a></b>, em particular, a interface <b><a rel="nofollow" class="external text" href="https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html">java.io.Serializable</a></b> e as classes de leitura <b><a rel="nofollow" class="external text" href="https://docs.oracle.com/javase/8/docs/api/java/io/ObjectInputStream.html">java.io.ObjectInputStream</a></b> e escrita <b><a rel="nofollow" class="external text" href="https://docs.oracle.com/javase/8/docs/api/java/io/ObjectOutputStream.html">java.io.ObjectOutputStream</a></b> (entre outras).
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20240613155724
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.057 seconds
+Real time usage: 0.149 seconds
+Preprocessor visited node count: 349/1000000
+Preprocessor generated node count: 635/1000000
+Post‐expand include size: 15507/2097152 bytes
+Template argument size: 2818/2097152 bytes
+Highest expansion depth: 3/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  103.519      1 - -total
+ 80.91%   83.761      1 - Template:CollapsedCode
+  5.89%    6.099      1 - Template:PRJPOAvisosEN20222023
+  3.11%    3.217      7 - Template:CVSCode
+  3.05%    3.161      1 - Template:PRJPOAvisos
+  2.85%    2.955      1 - Template:PRJPOMandatory20222023
+  2.68%    2.773      2 - Template:Suggestion
+  2.63%    2.726      1 - Template:TOCright
+-->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php?title=Programa%C3%A7%C3%A3o_com_Objectos/Projecto_de_Programa%C3%A7%C3%A3o_com_Objectos/Enunciado_do_Projecto_de_2022-2023&amp;oldid=15480">https://
+web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php?
+title=Programação_com_Objectos/Projecto_de_Programação_com_Objectos/
+Enunciado_do_Projecto_de_2022-2023&amp;oldid=15480</a>"</div>
+						<div class="clear_both"></div>
+					</div>
+		    	<div class="group"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Category:Ensino" title="Category:Ensino" class="label">Ensino</a></li><li><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Category:PO" title="Category:PO" class="label">PO</a></li><li><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Category:Projecto_de_PO" title="Category:Projecto de PO" class="label">Projecto de PO</a></li></ul></div></div></div>
+		    			    </div>
+		</div>
+
+			<footer class="row">
+				<div id="footer">
+										<div id="footer-left" class="small-8 large-centered columns text-center">
+					<ul id="footer-left">
+													<li id="footer-lastmod"> This page was last modified on 29 October 2022, at 16:27.</li>
+													<li id="footer-privacy"><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Wiki**3:Privacy_policy" title="Wiki**3:Privacy policy">Privacy policy</a></li>
+													<li id="footer-about"><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Wiki**3:About" title="Wiki**3:About">About Wiki**3</a></li>
+													<li id="footer-disclaimer"><a href="https://web.tecnico.ulisboa.pt/~david.matos/w/pt/index.php/Wiki**3:General_disclaimer" title="Wiki**3:General disclaimer">Disclaimers</a></li>
+															
+					</ul>
+					</div>	
+					<div id="footer-right-icons" class="large-12 small-12 columns">
+					<ul id="poweredby">
+													<li class="poweredby">								<a href="https://www.mediawiki.org/">Powered by MediaWiki</a>															</li>
+											</ul>
+					</div>								
+				</div>
+			</footer>
+
+		</div>
+		
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"skins.foreground":"loading","user":"ready","user.groups":"ready"});mw.loader.load("/~david.matos/w/pt/load.php?debug=false\u0026lang=en\u0026modules=skins.foreground\u0026only=scripts\u0026skin=foreground");mw.loader.load(["ext.SmjCDN","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":323});});</script>
+		
+		
+
+<div style="display: none; font-size: 14px;" class="suggestions"><div class="suggestions-results"></div><div class="suggestions-special"></div></div></body></html>
