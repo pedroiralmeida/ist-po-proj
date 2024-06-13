@@ -1,0 +1,1053 @@
+.
+├── classpath.txt
+├── finalTestes
+│   ├── ap01.dat
+│   ├── ap02.dat
+│   ├── ap03.dat
+│   ├── README
+│   ├── runtests.sh
+│   └── tests
+│       ├── A-01-01-M-ok.in
+│       ├── A-01-01-M-ok.out
+│       ├── A-01-02-M-ok.import
+│       ├── A-01-02-M-ok.in
+│       ├── A-01-02-M-ok.out
+│       ├── A-01-03-M-ok.in
+│       ├── A-01-03-M-ok.out
+│       ├── A-01-04-M-ok.import
+│       ├── A-01-04-M-ok.in
+│       ├── A-01-04-M-ok.out
+│       ├── A-01-05-M-ok.in
+│       ├── A-01-05-M-ok.out
+│       ├── A-01-06-M-ok.in
+│       ├── A-01-06-M-ok.out
+│       ├── A-01-07-M-ok.import
+│       ├── A-01-07-M-ok.in
+│       ├── A-01-07-M-ok.out
+│       ├── A-01-08-M-ok.in
+│       ├── A-01-08-M-ok.out
+│       ├── A-01-09-M-ok.import
+│       ├── A-01-09-M-ok.in
+│       ├── A-01-09-M-ok.out
+│       ├── A-03-01-M-ok.import
+│       ├── A-03-01-M-ok.in
+│       ├── A-03-01-M-ok.out
+│       ├── A-03-02-M-ok.in
+│       ├── A-03-02-M-ok.out
+│       ├── A-03-03-M-ok.import
+│       ├── A-03-03-M-ok.in
+│       ├── A-03-03-M-ok.out
+│       ├── A-03-04-M-ok.import
+│       ├── A-03-04-M-ok.in
+│       ├── A-03-04-M-ok.out
+│       ├── A-04-01-M-ok.import
+│       ├── A-04-01-M-ok.in
+│       ├── A-04-01-M-ok.out
+│       ├── A-04-02-M-ok.import
+│       ├── A-04-02-M-ok.in
+│       ├── A-04-02-M-ok.out
+│       ├── A-04-03-M-ok.import
+│       ├── A-04-03-M-ok.in
+│       ├── A-04-03-M-ok.out
+│       ├── A-05-01-M-ok.in
+│       ├── A-05-01-M-ok.out
+│       ├── A-05-02-M-ok.import
+│       ├── A-05-02-M-ok.in
+│       ├── A-05-02-M-ok.out
+│       ├── A-05-03-M-ok.import
+│       ├── A-05-03-M-ok.in
+│       ├── A-05-03-M-ok.out
+│       ├── A-05-04-M-ok.import
+│       ├── A-05-04-M-ok.in
+│       ├── A-05-04-M-ok.out
+│       ├── A-06-01-M-ok.import
+│       ├── A-06-01-M-ok.in
+│       ├── A-06-01-M-ok.out
+│       ├── A-06-02-M-ok.import
+│       ├── A-06-02-M-ok.in
+│       ├── A-06-02-M-ok.out
+│       ├── A-06-03-M-ok.import
+│       ├── A-06-03-M-ok.in
+│       ├── A-06-03-M-ok.out
+│       ├── A-06-04-M-ok.import
+│       ├── A-06-04-M-ok.in
+│       ├── A-06-04-M-ok.out
+│       ├── A-06-05-M-ok.import
+│       ├── A-06-05-M-ok.in
+│       ├── A-06-05-M-ok.out
+│       ├── A-07-01-M-ok.import
+│       ├── A-07-01-M-ok.in
+│       ├── A-07-01-M-ok.out
+│       ├── A-07-02-M-ok.import
+│       ├── A-07-02-M-ok.in
+│       ├── A-07-02-M-ok.out
+│       ├── A-07-03-M-ok.import
+│       ├── A-07-03-M-ok.in
+│       ├── A-07-03-M-ok.out
+│       ├── A-07-04-M-ok.import
+│       ├── A-07-04-M-ok.in
+│       ├── A-07-04-M-ok.out
+│       ├── A-07-05-M-ok.import
+│       ├── A-07-05-M-ok.in
+│       ├── A-07-05-M-ok.out
+│       ├── A-07-06-M-ok.import
+│       ├── A-07-06-M-ok.in
+│       ├── A-07-06-M-ok.out
+│       ├── A-07-07-M-ok.import
+│       ├── A-07-07-M-ok.in
+│       ├── A-07-07-M-ok.out
+│       ├── A-07-08-M-ok.import
+│       ├── A-07-08-M-ok.in
+│       ├── A-07-08-M-ok.out
+│       ├── A-08-01-M-ok.import
+│       ├── A-08-01-M-ok.in
+│       ├── A-08-01-M-ok.out
+│       ├── A-08-02-M-ok.import
+│       ├── A-08-02-M-ok.in
+│       ├── A-08-02-M-ok.out
+│       ├── A-08-03-M-ok.import
+│       ├── A-08-03-M-ok.in
+│       ├── A-08-03-M-ok.out
+│       ├── A-08-04-M-ok.import
+│       ├── A-08-04-M-ok.in
+│       ├── A-08-04-M-ok.out
+│       ├── A-08-05-M-ok.import
+│       ├── A-08-05-M-ok.in
+│       ├── A-08-05-M-ok.out
+│       ├── A-08-06-M-ok.import
+│       ├── A-08-06-M-ok.in
+│       ├── A-08-06-M-ok.out
+│       ├── A-08-07-M-ok.import
+│       ├── A-08-07-M-ok.in
+│       ├── A-08-07-M-ok.out
+│       ├── A-08-08-M-ok.import
+│       ├── A-08-08-M-ok.in
+│       ├── A-08-08-M-ok.out
+│       ├── A-09-01-M-ok.import
+│       ├── A-09-01-M-ok.in
+│       ├── A-09-01-M-ok.out
+│       ├── A-09-02-M-ok.import
+│       ├── A-09-02-M-ok.in
+│       ├── A-09-02-M-ok.out
+│       ├── A-09-03-M-ok.import
+│       ├── A-09-03-M-ok.in
+│       ├── A-09-03-M-ok.out
+│       ├── A-09-04-M-ok.import
+│       ├── A-09-04-M-ok.in
+│       ├── A-09-04-M-ok.out
+│       ├── A-10-01-M-ok.import
+│       ├── A-10-01-M-ok.in
+│       ├── A-10-01-M-ok.out
+│       ├── A-10-02-M-ok.import
+│       ├── A-10-02-M-ok.in
+│       ├── A-10-02-M-ok.out
+│       ├── A-10-03-M-ok.import
+│       ├── A-10-03-M-ok.in
+│       ├── A-10-03-M-ok.out
+│       ├── A-10-04-M-ok.import
+│       ├── A-10-04-M-ok.in
+│       ├── A-10-04-M-ok.out
+│       ├── A-11-01-M-ok.import
+│       ├── A-11-01-M-ok.in
+│       ├── A-11-01-M-ok.out
+│       ├── A-11-02-M-ok.import
+│       ├── A-11-02-M-ok.in
+│       ├── A-11-02-M-ok.out
+│       ├── A-11-03-M-ok.import
+│       ├── A-11-03-M-ok.in
+│       ├── A-11-03-M-ok.out
+│       ├── A-11-04-M-ok.import
+│       ├── A-11-04-M-ok.in
+│       ├── A-11-04-M-ok.out
+│       ├── A-11-05-M-ok.import
+│       ├── A-11-05-M-ok.in
+│       ├── A-11-05-M-ok.out
+│       ├── A-11-06-M-ok.import
+│       ├── A-11-06-M-ok.in
+│       ├── A-11-06-M-ok.out
+│       ├── A-11-07-M-ok.import
+│       ├── A-11-07-M-ok.in
+│       ├── A-11-07-M-ok.out
+│       ├── A-11-08-M-ok.import
+│       ├── A-11-08-M-ok.in
+│       ├── A-11-08-M-ok.out
+│       ├── A-12-01-M-ok.import
+│       ├── A-12-01-M-ok.in
+│       ├── A-12-01-M-ok.out
+│       ├── A-12-02-M-ok.import
+│       ├── A-12-02-M-ok.in
+│       ├── A-12-02-M-ok.out
+│       ├── A-12-03-M-ok.import
+│       ├── A-12-03-M-ok.in
+│       ├── A-12-03-M-ok.out
+│       ├── A-12-04-M-ok.import
+│       ├── A-12-04-M-ok.in
+│       ├── A-12-04-M-ok.out
+│       ├── A-12-05-M-ok.import
+│       ├── A-12-05-M-ok.in
+│       ├── A-12-05-M-ok.out
+│       ├── A-12-06-M-ok.import
+│       ├── A-12-06-M-ok.in
+│       ├── A-12-06-M-ok.out
+│       ├── A-12-07-M-ok.import
+│       ├── A-12-07-M-ok.in
+│       ├── A-12-07-M-ok.out
+│       ├── A-12-08-M-ok.import
+│       ├── A-12-08-M-ok.in
+│       ├── A-12-08-M-ok.out
+│       ├── A-12-09-M-ok.import
+│       ├── A-12-09-M-ok.in
+│       ├── A-12-09-M-ok.out
+│       ├── A-12-10-M-ok.import
+│       ├── A-12-10-M-ok.in
+│       ├── A-12-10-M-ok.out
+│       ├── A-12-11-M-ok.import
+│       ├── A-12-11-M-ok.in
+│       ├── A-12-11-M-ok.out
+│       ├── A-12-12-M-ok.import
+│       ├── A-12-12-M-ok.in
+│       ├── A-12-12-M-ok.out
+│       ├── A-12-13-M-ok.import
+│       ├── A-12-13-M-ok.in
+│       ├── A-12-13-M-ok.out
+│       ├── A-12-14-M-ok.import
+│       ├── A-12-14-M-ok.in
+│       ├── A-12-14-M-ok.out
+│       ├── A-13-01-M-ok.import
+│       ├── A-13-01-M-ok.in
+│       ├── A-13-01-M-ok.out
+│       ├── A-13-02-M-ok.import
+│       ├── A-13-02-M-ok.in
+│       ├── A-13-02-M-ok.out
+│       ├── A-13-03-M-ok.import
+│       ├── A-13-03-M-ok.in
+│       ├── A-13-03-M-ok.out
+│       ├── A-13-04-M-ok.import
+│       ├── A-13-04-M-ok.in
+│       ├── A-13-04-M-ok.out
+│       ├── A-13-05-M-ok.import
+│       ├── A-13-05-M-ok.in
+│       ├── A-13-05-M-ok.out
+│       ├── A-14-01-M-ok.import
+│       ├── A-14-01-M-ok.in
+│       ├── A-14-01-M-ok.out
+│       ├── A-14-02-M-ok.import
+│       ├── A-14-02-M-ok.in
+│       ├── A-14-02-M-ok.out
+│       ├── A-14-03-M-ok.import
+│       ├── A-14-03-M-ok.in
+│       ├── A-14-03-M-ok.out
+│       ├── A-14-04-M-ok.import
+│       ├── A-14-04-M-ok.in
+│       ├── A-14-04-M-ok.out
+│       ├── A-14-05-M-ok.import
+│       ├── A-14-05-M-ok.in
+│       ├── A-14-05-M-ok.out
+│       ├── A-15-01-M-ok.import
+│       ├── A-15-01-M-ok.in
+│       ├── A-15-01-M-ok.out
+│       ├── A-15-02-M-ok.import
+│       ├── A-15-02-M-ok.in
+│       ├── A-15-02-M-ok.out
+│       ├── A-15-03-M-ok.import
+│       ├── A-15-03-M-ok.in
+│       ├── A-15-03-M-ok.out
+│       ├── A-15-04-M-ok.import
+│       ├── A-15-04-M-ok.in
+│       ├── A-15-04-M-ok.out
+│       ├── A-15-05-M-ok.import
+│       ├── A-15-05-M-ok.in
+│       ├── A-15-05-M-ok.out
+│       ├── A-16-01-M-ok.import
+│       ├── A-16-01-M-ok.in
+│       ├── A-16-01-M-ok.out
+│       ├── A-16-02-M-ok.import
+│       ├── A-16-02-M-ok.in
+│       ├── A-16-02-M-ok.out
+│       ├── A-16-03-M-ok.import
+│       ├── A-16-03-M-ok.in
+│       ├── A-16-03-M-ok.out
+│       ├── A-16-04-M-ok.import
+│       ├── A-16-04-M-ok.in
+│       ├── A-16-04-M-ok.out
+│       ├── A-16-05-M-ok.import
+│       ├── A-16-05-M-ok.in
+│       ├── A-16-05-M-ok.out
+│       ├── A-16-06-M-ok.import
+│       ├── A-16-06-M-ok.in
+│       ├── A-16-06-M-ok.out
+│       ├── A-16-07-M-ok.import
+│       ├── A-16-07-M-ok.in
+│       ├── A-16-07-M-ok.out
+│       ├── A-17-01-M-ok.import
+│       ├── A-17-01-M-ok.in
+│       ├── A-17-01-M-ok.out
+│       ├── A-17-02-M-ok.import
+│       ├── A-17-02-M-ok.in
+│       ├── A-17-02-M-ok.out
+│       ├── A-17-03-M-ok.import
+│       ├── A-17-03-M-ok.in
+│       ├── A-17-03-M-ok.out
+│       ├── A-17-04-M-ok.import
+│       ├── A-17-04-M-ok.in
+│       ├── A-17-04-M-ok.out
+│       ├── A-18-01-M-ok.import
+│       ├── A-18-01-M-ok.in
+│       ├── A-18-01-M-ok.out
+│       ├── A-18-02-M-ok.import
+│       ├── A-18-02-M-ok.in
+│       ├── A-18-02-M-ok.out
+│       ├── A-18-03-M-ok.import
+│       ├── A-18-03-M-ok.in
+│       ├── A-18-03-M-ok.out
+│       ├── A-18-04-M-ok.import
+│       ├── A-18-04-M-ok.in
+│       ├── A-18-04-M-ok.out
+│       ├── A-18-05-M-ok.import
+│       ├── A-18-05-M-ok.in
+│       ├── A-18-05-M-ok.out
+│       ├── A-18-06-M-ok.import
+│       ├── A-18-06-M-ok.in
+│       ├── A-18-06-M-ok.out
+│       ├── A-18-07-M-ok.import
+│       ├── A-18-07-M-ok.in
+│       ├── A-18-07-M-ok.out
+│       ├── A-18-08-M-ok.import
+│       ├── A-18-08-M-ok.in
+│       ├── A-18-08-M-ok.out
+│       ├── A-18-09-M-ok.import
+│       ├── A-18-09-M-ok.in
+│       ├── A-18-09-M-ok.out
+│       ├── A-18-10-M-ok.import
+│       ├── A-18-10-M-ok.in
+│       ├── A-18-10-M-ok.out
+│       ├── A-18-11-M-ok.import
+│       ├── A-18-11-M-ok.in
+│       ├── A-18-11-M-ok.out
+│       ├── A-18-12-M-ok.import
+│       ├── A-18-12-M-ok.in
+│       ├── A-18-12-M-ok.out
+│       ├── A-18-13-M-ok.import
+│       ├── A-18-13-M-ok.in
+│       ├── A-18-13-M-ok.out
+│       ├── A-18-14-M-ok.import
+│       ├── A-18-14-M-ok.in
+│       ├── A-18-14-M-ok.out
+│       ├── A-19-01-M-ok.import
+│       ├── A-19-01-M-ok.in
+│       ├── A-19-01-M-ok.out
+│       ├── A-19-02-M-ok.import
+│       ├── A-19-02-M-ok.in
+│       ├── A-19-02-M-ok.out
+│       ├── A-19-03-M-ok.import
+│       ├── A-19-03-M-ok.in
+│       ├── A-19-03-M-ok.out
+│       ├── A-19-04-M-ok.import
+│       ├── A-19-04-M-ok.in
+│       ├── A-19-04-M-ok.out
+│       ├── A-19-05-M-ok.import
+│       ├── A-19-05-M-ok.in
+│       ├── A-19-05-M-ok.out
+│       ├── A-19-06-M-ok.import
+│       ├── A-19-06-M-ok.in
+│       ├── A-19-06-M-ok.out
+│       ├── A-19-07-M-ok.import
+│       ├── A-19-07-M-ok.in
+│       └── A-19-07-M-ok.out
+├── intermediaTestes
+│   ├── ap01.dat
+│   ├── ap02.dat
+│   ├── ap03.dat
+│   ├── runtests.sh
+│   └── tests
+│       ├── A-01-01-M-ok.in
+│       ├── A-01-01-M-ok.out
+│       ├── A-01-02-M-ok.import
+│       ├── A-01-02-M-ok.in
+│       ├── A-01-02-M-ok.out
+│       ├── A-01-03-M-ok.in
+│       ├── A-01-03-M-ok.out
+│       ├── A-01-04-M-ok.import
+│       ├── A-01-04-M-ok.in
+│       ├── A-01-04-M-ok.out
+│       ├── A-01-05-M-ok.in
+│       ├── A-01-05-M-ok.out
+│       ├── A-01-06-M-ok.in
+│       ├── A-01-06-M-ok.out
+│       ├── A-01-07-M-ok.import
+│       ├── A-01-07-M-ok.in
+│       ├── A-01-07-M-ok.out
+│       ├── A-01-08-M-ok.in
+│       ├── A-01-08-M-ok.out
+│       ├── A-01-09-M-ok.import
+│       ├── A-01-09-M-ok.in
+│       ├── A-01-09-M-ok.out
+│       ├── A-03-01-M-ok.import
+│       ├── A-03-01-M-ok.in
+│       ├── A-03-01-M-ok.out
+│       ├── A-03-02-M-ok.in
+│       ├── A-03-02-M-ok.out
+│       ├── A-03-03-M-ok.import
+│       ├── A-03-03-M-ok.in
+│       ├── A-03-03-M-ok.out
+│       ├── A-03-04-M-ok.import
+│       ├── A-03-04-M-ok.in
+│       ├── A-03-04-M-ok.out
+│       ├── A-04-01-M-ok.import
+│       ├── A-04-01-M-ok.in
+│       ├── A-04-01-M-ok.out
+│       ├── A-04-02-M-ok.import
+│       ├── A-04-02-M-ok.in
+│       ├── A-04-02-M-ok.out
+│       ├── A-04-03-M-ok.import
+│       ├── A-04-03-M-ok.in
+│       ├── A-04-03-M-ok.out
+│       ├── A-05-01-M-ok.in
+│       ├── A-05-01-M-ok.out
+│       ├── A-05-02-M-ok.import
+│       ├── A-05-02-M-ok.in
+│       ├── A-05-02-M-ok.out
+│       ├── A-05-03-M-ok.import
+│       ├── A-05-03-M-ok.in
+│       ├── A-05-03-M-ok.out
+│       ├── A-05-04-M-ok.import
+│       ├── A-05-04-M-ok.in
+│       ├── A-05-04-M-ok.out
+│       ├── A-07-01-M-ok.import
+│       ├── A-07-01-M-ok.in
+│       ├── A-07-01-M-ok.out
+│       ├── A-07-02-M-ok.import
+│       ├── A-07-02-M-ok.in
+│       ├── A-07-02-M-ok.out
+│       ├── A-07-03-M-ok.import
+│       ├── A-07-03-M-ok.in
+│       ├── A-07-03-M-ok.out
+│       ├── A-07-04-M-ok.import
+│       ├── A-07-04-M-ok.in
+│       ├── A-07-04-M-ok.out
+│       ├── A-07-05-M-ok.import
+│       ├── A-07-05-M-ok.in
+│       ├── A-07-05-M-ok.out
+│       ├── A-07-06-M-ok.import
+│       ├── A-07-06-M-ok.in
+│       ├── A-07-06-M-ok.out
+│       ├── A-07-07-M-ok.import
+│       ├── A-07-07-M-ok.in
+│       ├── A-07-07-M-ok.out
+│       ├── A-07-08-M-ok.import
+│       ├── A-07-08-M-ok.in
+│       ├── A-07-08-M-ok.out
+│       ├── A-07-09-M-ok.import
+│       ├── A-07-09-M-ok.in
+│       ├── A-07-09-M-ok.out
+│       ├── A-08-01-M-ok.import
+│       ├── A-08-01-M-ok.in
+│       ├── A-08-01-M-ok.out
+│       ├── A-08-02-M-ok.import
+│       ├── A-08-02-M-ok.in
+│       ├── A-08-02-M-ok.out
+│       ├── A-08-03-M-ok.import
+│       ├── A-08-03-M-ok.in
+│       ├── A-08-03-M-ok.out
+│       ├── A-08-04-M-ok.import
+│       ├── A-08-04-M-ok.in
+│       ├── A-08-04-M-ok.out
+│       ├── A-08-05-M-ok.import
+│       ├── A-08-05-M-ok.in
+│       ├── A-08-05-M-ok.out
+│       ├── A-08-06-M-ok.import
+│       ├── A-08-06-M-ok.in
+│       ├── A-08-06-M-ok.out
+│       ├── A-08-07-M-ok.import
+│       ├── A-08-07-M-ok.in
+│       ├── A-08-07-M-ok.out
+│       ├── A-08-08-M-ok.import
+│       ├── A-08-08-M-ok.in
+│       ├── A-08-08-M-ok.out
+│       ├── A-09-01-M-ok.import
+│       ├── A-09-01-M-ok.in
+│       ├── A-09-01-M-ok.out
+│       ├── A-09-02-M-ok.import
+│       ├── A-09-02-M-ok.in
+│       ├── A-09-02-M-ok.out
+│       ├── A-09-03-M-ok.import
+│       ├── A-09-03-M-ok.in
+│       ├── A-09-03-M-ok.out
+│       ├── A-09-04-M-ok.import
+│       ├── A-09-04-M-ok.in
+│       ├── A-09-04-M-ok.out
+│       ├── A-10-01-M-ok.import
+│       ├── A-10-01-M-ok.in
+│       ├── A-10-01-M-ok.out
+│       ├── A-10-02-M-ok.import
+│       ├── A-10-02-M-ok.in
+│       ├── A-10-02-M-ok.out
+│       ├── A-10-03-M-ok.import
+│       ├── A-10-03-M-ok.in
+│       ├── A-10-03-M-ok.out
+│       ├── A-10-04-M-ok.import
+│       ├── A-10-04-M-ok.in
+│       └── A-10-04-M-ok.out
+├── output.txt
+├── po-uilib
+│   ├── bin
+│   ├── LICENSE
+│   ├── Makefile
+│   ├── po-uilib.jar
+│   ├── README.md
+│   └── src
+│       └── pt
+│           └── tecnico
+│               └── uilib
+│                   ├── Dialog.class
+│                   ├── Dialog.java
+│                   ├── Display.class
+│                   ├── Display.java
+│                   ├── forms
+│                   │   ├── FieldBoolean.class
+│                   │   ├── FieldBoolean.java
+│                   │   ├── Field.class
+│                   │   ├── FieldInteger.class
+│                   │   ├── FieldInteger.java
+│                   │   ├── Field.java
+│                   │   ├── FieldNone.class
+│                   │   ├── FieldNone.java
+│                   │   ├── FieldOption.class
+│                   │   ├── FieldOption.java
+│                   │   ├── FieldReal.class
+│                   │   ├── FieldReal.java
+│                   │   ├── FieldString.class
+│                   │   ├── FieldString.java
+│                   │   ├── Form.class
+│                   │   ├── FormException.class
+│                   │   ├── FormException.java
+│                   │   ├── Form.java
+│                   │   ├── Message.class
+│                   │   └── Message.java
+│                   ├── InteractionDriver.class
+│                   ├── InteractionDriver.java
+│                   ├── menus
+│                   │   ├── Command.class
+│                   │   ├── CommandException.class
+│                   │   ├── CommandException.java
+│                   │   ├── Command.java
+│                   │   ├── DoOpenMenu.class
+│                   │   ├── DoOpenMenu.java
+│                   │   ├── Menu.class
+│                   │   ├── Menu.java
+│                   │   ├── Message.class
+│                   │   └── Message.java
+│                   ├── swing
+│                   │   ├── NewSwingInteraction.class
+│                   │   ├── NewSwingInteraction.java
+│                   │   ├── Prompt.class
+│                   │   ├── Prompt.java
+│                   │   ├── SwingDialogForm.class
+│                   │   ├── SwingDialogForm.java
+│                   │   ├── SwingDialogMenu.class
+│                   │   ├── SwingDialogMenu.java
+│                   │   ├── SwingForm.class
+│                   │   ├── SwingForm.java
+│                   │   ├── SwingInteraction.class
+│                   │   ├── SwingInteraction.java
+│                   │   ├── SwingMenu.class
+│                   │   ├── SwingMenu.java
+│                   │   ├── SwingMessage.class
+│                   │   ├── SwingMessage.java
+│                   │   ├── SwingPanel.class
+│                   │   └── SwingPanel.java
+│                   └── text
+│                       ├── CompositePrintStream.class
+│                       ├── CompositePrintStream.java
+│                       ├── Message.class
+│                       ├── Message.java
+│                       ├── Prompt.class
+│                       ├── Prompt.java
+│                       ├── Property.class
+│                       ├── Property.java
+│                       ├── RuntimeEOFException.class
+│                       ├── RuntimeEOFException.java
+│                       ├── TextInteraction.class
+│                       └── TextInteraction.java
+└── project
+    ├── CVS
+    │   ├── Entries
+    │   ├── Repository
+    │   └── Root
+    ├── final
+    ├── Makefile
+    ├── out
+    │   └── production
+    │       ├── po-uilib
+    │       │   └── pt
+    │       │       └── tecnico
+    │       │           └── uilib
+    │       │               ├── Dialog.class
+    │       │               ├── Display.class
+    │       │               ├── forms
+    │       │               │   ├── FieldBoolean.class
+    │       │               │   ├── Field.class
+    │       │               │   ├── FieldInteger.class
+    │       │               │   ├── FieldNone.class
+    │       │               │   ├── FieldOption.class
+    │       │               │   ├── FieldReal.class
+    │       │               │   ├── FieldString.class
+    │       │               │   ├── Form.class
+    │       │               │   ├── FormException.class
+    │       │               │   └── Message.class
+    │       │               ├── InteractionDriver.class
+    │       │               ├── menus
+    │       │               │   ├── Command.class
+    │       │               │   ├── CommandException.class
+    │       │               │   ├── DoOpenMenu.class
+    │       │               │   ├── Menu.class
+    │       │               │   └── Message.class
+    │       │               ├── swing
+    │       │               │   ├── NewSwingInteraction.class
+    │       │               │   ├── Prompt.class
+    │       │               │   ├── SwingDialogForm.class
+    │       │               │   ├── SwingDialogMenu.class
+    │       │               │   ├── SwingForm.class
+    │       │               │   ├── SwingInteraction.class
+    │       │               │   ├── SwingMenu.class
+    │       │               │   ├── SwingMessage.class
+    │       │               │   └── SwingPanel.class
+    │       │               └── text
+    │       │                   ├── CompositePrintStream.class
+    │       │                   ├── Message.class
+    │       │                   ├── Prompt.class
+    │       │                   ├── Property.class
+    │       │                   ├── RuntimeEOFException.class
+    │       │                   └── TextInteraction.class
+    │       ├── prr-app
+    │       │   └── prr
+    │       │       └── app
+    │       │           ├── App.class
+    │       │           ├── clients
+    │       │           │   ├── DoDisableClientNotifications.class
+    │       │           │   ├── DoEnableClientNotifications.class
+    │       │           │   ├── DoRegisterClient.class
+    │       │           │   ├── DoShowAllClients.class
+    │       │           │   ├── DoShowClient.class
+    │       │           │   ├── DoShowClientPaymentsAndDebts.class
+    │       │           │   ├── Label.class
+    │       │           │   ├── Menu.class
+    │       │           │   ├── Message.class
+    │       │           │   └── Prompt.class
+    │       │           ├── exceptions
+    │       │           │   ├── DuplicateClientKeyException.class
+    │       │           │   ├── DuplicateTerminalKeyException.class
+    │       │           │   ├── FileOpenFailedException.class
+    │       │           │   ├── InvalidTerminalKeyException.class
+    │       │           │   ├── Message.class
+    │       │           │   ├── UnknownClientKeyException.class
+    │       │           │   └── UnknownTerminalKeyException.class
+    │       │           ├── lookups
+    │       │           │   ├── DoShowAllCommunications.class
+    │       │           │   ├── DoShowClientsWithDebts.class
+    │       │           │   ├── DoShowClientsWithoutDebts.class
+    │       │           │   ├── DoShowCommunicationsFromClient.class
+    │       │           │   ├── DoShowCommunicationsToClient.class
+    │       │           │   ├── DoShowTerminalsWithPositiveBalance.class
+    │       │           │   ├── DoShowUnusedTerminals.class
+    │       │           │   ├── Label.class
+    │       │           │   ├── Menu.class
+    │       │           │   ├── Message.class
+    │       │           │   └── Prompt.class
+    │       │           ├── main
+    │       │           │   ├── DoOpenFile.class
+    │       │           │   ├── DoOpenMenuClient.class
+    │       │           │   ├── DoOpenMenuLookups.class
+    │       │           │   ├── DoOpenMenuTerminals.class
+    │       │           │   ├── DoSaveFile.class
+    │       │           │   ├── DoShowGlobalBalance.class
+    │       │           │   ├── Label.class
+    │       │           │   ├── Menu.class
+    │       │           │   ├── Message.class
+    │       │           │   └── Prompt.class
+    │       │           ├── terminal
+    │       │           │   ├── DoAddFriend.class
+    │       │           │   ├── DoEndInteractiveCommunication.class
+    │       │           │   ├── DoPerformPayment.class
+    │       │           │   ├── DoRemoveFriend.class
+    │       │           │   ├── DoSendTextCommunication.class
+    │       │           │   ├── DoShowOngoingCommunication.class
+    │       │           │   ├── DoShowTerminalBalance.class
+    │       │           │   ├── DoSilenceTerminal.class
+    │       │           │   ├── DoStartInteractiveCommunication.class
+    │       │           │   ├── DoTurnOffTerminal.class
+    │       │           │   ├── DoTurnOnTerminal.class
+    │       │           │   ├── Label.class
+    │       │           │   ├── Menu.class
+    │       │           │   ├── Message.class
+    │       │           │   ├── Prompt.class
+    │       │           │   └── TerminalCommand.class
+    │       │           └── terminals
+    │       │               ├── DoOpenMenuTerminalConsole.class
+    │       │               ├── DoRegisterTerminal.class
+    │       │               ├── DoShowAllTerminals.class
+    │       │               ├── Label.class
+    │       │               ├── Menu.class
+    │       │               ├── Message.class
+    │       │               └── Prompt.class
+    │       └── prr-core
+    │           └── prr
+    │               ├── clients
+    │               │   ├── BasicTariffPlan.class
+    │               │   ├── Client.class
+    │               │   ├── ClientLevel.class
+    │               │   ├── ClientType.class
+    │               │   ├── Gold.class
+    │               │   ├── GoldLevel.class
+    │               │   ├── Normal.class
+    │               │   ├── NormalLevel.class
+    │               │   ├── Platinum.class
+    │               │   ├── PlatinumLevel.class
+    │               │   ├── SortByClientID.class
+    │               │   └── TariffPlan.class
+    │               ├── communications
+    │               │   ├── Communication.class
+    │               │   ├── InteractiveCommunication.class
+    │               │   ├── TextCommunication.class
+    │               │   ├── VideoCommunication.class
+    │               │   └── VoiceCommunication.class
+    │               ├── exceptions
+    │               │   ├── DestinationIsBusyException.class
+    │               │   ├── DestinationIsOffException.class
+    │               │   ├── DestinationIsSilentException.class
+    │               │   ├── DuplicateClientException.class
+    │               │   ├── DuplicateTerminalException.class
+    │               │   ├── IllegalTerminalKeyException.class
+    │               │   ├── ImportFileException.class
+    │               │   ├── InvalidCommunicationException.class
+    │               │   ├── MissingFileAssociationException.class
+    │               │   ├── NetworkException.class
+    │               │   ├── NoOnGoingCommunicationException.class
+    │               │   ├── NotificationsAlreadyDisabledException.class
+    │               │   ├── NotificationsAlreadyEnabledException.class
+    │               │   ├── TerminalAlreadyOffException.class
+    │               │   ├── TerminalAlreadyOnException.class
+    │               │   ├── TerminalAlreadySilentException.class
+    │               │   ├── TerminalException.class
+    │               │   ├── UnavailableFileException.class
+    │               │   ├── UnknownClientException.class
+    │               │   ├── UnknownTerminalException.class
+    │               │   ├── UnrecognizedEntryException.class
+    │               │   ├── UnsupportedAtDestinationException.class
+    │               │   └── UnsupportedAtOriginException.class
+    │               ├── Network.class
+    │               ├── NetworkManager.class
+    │               ├── notifications
+    │               │   ├── DefaultMeanOfDelivery.class
+    │               │   ├── MeanOfDelivery.class
+    │               │   ├── Notification.class
+    │               │   └── NotificationService.class
+    │               └── terminals
+    │                   ├── BasicTerminal.class
+    │                   ├── BusyState.class
+    │                   ├── FancyTerminal.class
+    │                   ├── IdleState.class
+    │                   ├── OffState.class
+    │                   ├── SilenceState.class
+    │                   ├── SortByTerminalID.class
+    │                   ├── Terminal.class
+    │                   └── TerminalStatus.class
+    ├── po-uilib
+    │   ├── bin
+    │   ├── LICENSE
+    │   ├── Makefile
+    │   ├── po-uilib.iml
+    │   ├── po-uilib.jar
+    │   ├── README.md
+    │   └── src
+    │       └── pt
+    │           └── tecnico
+    │               └── uilib
+    │                   ├── Dialog.class
+    │                   ├── Dialog.java
+    │                   ├── Display.class
+    │                   ├── Display.java
+    │                   ├── forms
+    │                   │   ├── FieldBoolean.class
+    │                   │   ├── FieldBoolean.java
+    │                   │   ├── Field.class
+    │                   │   ├── FieldInteger.class
+    │                   │   ├── FieldInteger.java
+    │                   │   ├── Field.java
+    │                   │   ├── FieldNone.class
+    │                   │   ├── FieldNone.java
+    │                   │   ├── FieldOption.class
+    │                   │   ├── FieldOption.java
+    │                   │   ├── FieldReal.class
+    │                   │   ├── FieldReal.java
+    │                   │   ├── FieldString.class
+    │                   │   ├── FieldString.java
+    │                   │   ├── Form.class
+    │                   │   ├── FormException.class
+    │                   │   ├── FormException.java
+    │                   │   ├── Form.java
+    │                   │   ├── Message.class
+    │                   │   └── Message.java
+    │                   ├── InteractionDriver.class
+    │                   ├── InteractionDriver.java
+    │                   ├── menus
+    │                   │   ├── Command.class
+    │                   │   ├── CommandException.class
+    │                   │   ├── CommandException.java
+    │                   │   ├── Command.java
+    │                   │   ├── DoOpenMenu.class
+    │                   │   ├── DoOpenMenu.java
+    │                   │   ├── Menu.class
+    │                   │   ├── Menu.java
+    │                   │   ├── Message.class
+    │                   │   └── Message.java
+    │                   ├── swing
+    │                   │   ├── NewSwingInteraction.class
+    │                   │   ├── NewSwingInteraction.java
+    │                   │   ├── Prompt.class
+    │                   │   ├── Prompt.java
+    │                   │   ├── SwingDialogForm.class
+    │                   │   ├── SwingDialogForm.java
+    │                   │   ├── SwingDialogMenu.class
+    │                   │   ├── SwingDialogMenu.java
+    │                   │   ├── SwingForm.class
+    │                   │   ├── SwingForm.java
+    │                   │   ├── SwingInteraction.class
+    │                   │   ├── SwingInteraction.java
+    │                   │   ├── SwingMenu.class
+    │                   │   ├── SwingMenu.java
+    │                   │   ├── SwingMessage.class
+    │                   │   ├── SwingMessage.java
+    │                   │   ├── SwingPanel.class
+    │                   │   └── SwingPanel.java
+    │                   └── text
+    │                       ├── CompositePrintStream.class
+    │                       ├── CompositePrintStream.java
+    │                       ├── Message.class
+    │                       ├── Message.java
+    │                       ├── Prompt.class
+    │                       ├── Prompt.java
+    │                       ├── Property.class
+    │                       ├── Property.java
+    │                       ├── RuntimeEOFException.class
+    │                       ├── RuntimeEOFException.java
+    │                       ├── TextInteraction.class
+    │                       └── TextInteraction.java
+    ├── prr-app
+    │   ├── CVS
+    │   │   ├── Entries
+    │   │   ├── Repository
+    │   │   └── Root
+    │   ├── Makefile
+    │   ├── prr-app.iml
+    │   ├── README.md
+    │   └── src
+    │       ├── CVS
+    │       │   ├── Entries
+    │       │   ├── Repository
+    │       │   └── Root
+    │       └── prr
+    │           ├── app
+    │           │   ├── App.java
+    │           │   ├── clients
+    │           │   │   ├── CVS
+    │           │   │   │   ├── Entries
+    │           │   │   │   ├── Repository
+    │           │   │   │   └── Root
+    │           │   │   ├── DoDisableClientNotifications.java
+    │           │   │   ├── DoEnableClientNotifications.java
+    │           │   │   ├── DoRegisterClient.java
+    │           │   │   ├── DoShowAllClients.java
+    │           │   │   ├── DoShowClient.java
+    │           │   │   ├── DoShowClientPaymentsAndDebts.java
+    │           │   │   ├── Label.java
+    │           │   │   ├── Menu.java
+    │           │   │   ├── Message.java
+    │           │   │   └── Prompt.java
+    │           │   ├── CVS
+    │           │   │   ├── Entries
+    │           │   │   ├── Repository
+    │           │   │   └── Root
+    │           │   ├── exceptions
+    │           │   │   ├── CVS
+    │           │   │   │   ├── Entries
+    │           │   │   │   ├── Repository
+    │           │   │   │   └── Root
+    │           │   │   ├── DuplicateClientKeyException.java
+    │           │   │   ├── DuplicateTerminalKeyException.java
+    │           │   │   ├── FileOpenFailedException.java
+    │           │   │   ├── InvalidTerminalKeyException.java
+    │           │   │   ├── Message.java
+    │           │   │   ├── UnknownClientKeyException.java
+    │           │   │   └── UnknownTerminalKeyException.java
+    │           │   ├── lookups
+    │           │   │   ├── CVS
+    │           │   │   │   ├── Entries
+    │           │   │   │   ├── Repository
+    │           │   │   │   └── Root
+    │           │   │   ├── DoShowAllCommunications.java
+    │           │   │   ├── DoShowClientsWithDebts.java
+    │           │   │   ├── DoShowClientsWithoutDebts.java
+    │           │   │   ├── DoShowCommunicationsFromClient.java
+    │           │   │   ├── DoShowCommunicationsToClient.java
+    │           │   │   ├── DoShowTerminalsWithPositiveBalance.java
+    │           │   │   ├── DoShowUnusedTerminals.java
+    │           │   │   ├── Label.java
+    │           │   │   ├── Menu.java
+    │           │   │   ├── Message.java
+    │           │   │   └── Prompt.java
+    │           │   ├── main
+    │           │   │   ├── CVS
+    │           │   │   │   ├── Entries
+    │           │   │   │   ├── Repository
+    │           │   │   │   └── Root
+    │           │   │   ├── DoOpenFile.java
+    │           │   │   ├── DoOpenMenuClient.java
+    │           │   │   ├── DoOpenMenuLookups.java
+    │           │   │   ├── DoOpenMenuTerminals.java
+    │           │   │   ├── DoSaveFile.java
+    │           │   │   ├── DoShowGlobalBalance.java
+    │           │   │   ├── Label.java
+    │           │   │   ├── Menu.java
+    │           │   │   ├── Message.java
+    │           │   │   └── Prompt.java
+    │           │   ├── terminal
+    │           │   │   ├── CVS
+    │           │   │   │   ├── Entries
+    │           │   │   │   ├── Repository
+    │           │   │   │   └── Root
+    │           │   │   ├── DoAddFriend.java
+    │           │   │   ├── DoEndInteractiveCommunication.java
+    │           │   │   ├── DoPerformPayment.java
+    │           │   │   ├── DoRemoveFriend.java
+    │           │   │   ├── DoSendTextCommunication.java
+    │           │   │   ├── DoShowOngoingCommunication.java
+    │           │   │   ├── DoShowTerminalBalance.java
+    │           │   │   ├── DoSilenceTerminal.java
+    │           │   │   ├── DoStartInteractiveCommunication.java
+    │           │   │   ├── DoTurnOffTerminal.java
+    │           │   │   ├── DoTurnOnTerminal.java
+    │           │   │   ├── Label.java
+    │           │   │   ├── Menu.java
+    │           │   │   ├── Message.java
+    │           │   │   ├── Prompt.java
+    │           │   │   └── TerminalCommand.java
+    │           │   └── terminals
+    │           │       ├── CVS
+    │           │       │   ├── Entries
+    │           │       │   ├── Repository
+    │           │       │   └── Root
+    │           │       ├── DoOpenMenuTerminalConsole.java
+    │           │       ├── DoRegisterTerminal.java
+    │           │       ├── DoShowAllTerminals.java
+    │           │       ├── Label.java
+    │           │       ├── Menu.java
+    │           │       ├── Message.java
+    │           │       └── Prompt.java
+    │           └── CVS
+    │               ├── Entries
+    │               ├── Repository
+    │               └── Root
+    ├── prr-core
+    │   ├── CVS
+    │   │   ├── Entries
+    │   │   ├── Repository
+    │   │   └── Root
+    │   ├── Makefile
+    │   ├── prr-core.iml
+    │   ├── README.md
+    │   └── src
+    │       ├── CVS
+    │       │   ├── Entries
+    │       │   ├── Repository
+    │       │   └── Root
+    │       └── prr
+    │           ├── clients
+    │           │   ├── BasicTariffPlan.java
+    │           │   ├── Client.java
+    │           │   ├── ClientLevel.java
+    │           │   ├── CVS
+    │           │   │   ├── Entries
+    │           │   │   ├── Repository
+    │           │   │   └── Root
+    │           │   ├── GoldLevel.java
+    │           │   ├── NormalLevel.java
+    │           │   ├── PlatinumLevel.java
+    │           │   └── TariffPlan.java
+    │           ├── communications
+    │           │   ├── Communication.java
+    │           │   ├── CVS
+    │           │   │   ├── Entries
+    │           │   │   ├── Repository
+    │           │   │   └── Root
+    │           │   ├── InteractiveCommunication.java
+    │           │   ├── TextCommunication.java
+    │           │   ├── VideoCommunication.java
+    │           │   └── VoiceCommunication.java
+    │           ├── CVS
+    │           │   ├── Entries
+    │           │   ├── Repository
+    │           │   └── Root
+    │           ├── exceptions
+    │           │   ├── CVS
+    │           │   │   ├── Entries
+    │           │   │   ├── Repository
+    │           │   │   └── Root
+    │           │   ├── DestinationIsBusyException.java
+    │           │   ├── DestinationIsOffException.java
+    │           │   ├── DestinationIsSilentException.java
+    │           │   ├── DuplicateClientException.java
+    │           │   ├── DuplicateTerminalException.java
+    │           │   ├── IllegalTerminalKeyException.java
+    │           │   ├── ImportFileException.java
+    │           │   ├── InvalidCommunicationException.java
+    │           │   ├── MissingFileAssociationException.java
+    │           │   ├── NetworkException.java
+    │           │   ├── NoOnGoingCommunicationException.java
+    │           │   ├── NotificationsAlreadyDisabledException.java
+    │           │   ├── NotificationsAlreadyEnabledException.java
+    │           │   ├── TerminalAlreadyOffException.java
+    │           │   ├── TerminalAlreadyOnException.java
+    │           │   ├── TerminalAlreadySilentException.java
+    │           │   ├── TerminalException.java
+    │           │   ├── UnavailableFileException.java
+    │           │   ├── UnknownClientException.java
+    │           │   ├── UnknownTerminalException.java
+    │           │   ├── UnrecognizedEntryException.java
+    │           │   ├── UnsupportedAtDestinationException.java
+    │           │   └── UnsupportedAtOriginException.java
+    │           ├── Network.java
+    │           ├── NetworkManager.java
+    │           ├── notifications
+    │           │   ├── CVS
+    │           │   │   ├── Entries
+    │           │   │   ├── Repository
+    │           │   │   └── Root
+    │           │   ├── DefaultMeanOfDelivery.java
+    │           │   ├── MeanOfDelivery.java
+    │           │   ├── Notification.java
+    │           │   └── NotificationService.java
+    │           └── terminals
+    │               ├── BasicTerminal.java
+    │               ├── BusyState.java
+    │               ├── CVS
+    │               │   ├── Entries
+    │               │   ├── Repository
+    │               │   └── Root
+    │               ├── FancyTerminal.java
+    │               ├── IdleState.java
+    │               ├── OffState.java
+    │               ├── SilenceState.java
+    │               ├── SortByTerminalID.java
+    │               ├── Terminal.java
+    │               └── TerminalStatus.java
+    └── uml
+        ├── CVS
+        │   ├── Entries
+        │   ├── Repository
+        │   └── Root
+        ├── UML-po-uilib.pdf
+        ├── UML-prr-app.pdf
+        └── UML-prr-core.pdf
+
+90 directories, 960 files
